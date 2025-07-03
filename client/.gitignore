@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+
+# Build output
+.next/
+out/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env*
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Misc
+coverage/
+*.local
+
+# Dependency directories
+client/node_modules/
+
+# Build artifacts
+client/.next/
+
+# Mac system files
+client/.DS_Store
+
+# Ignore lock files if not using them
+# package-lock.json
+yarn.lock
+pnpm-lock.yaml 
