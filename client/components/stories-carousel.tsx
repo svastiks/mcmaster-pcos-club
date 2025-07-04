@@ -113,17 +113,17 @@ export function StoriesCarousel() {
   return (
     <>
       <section className="py-20 bg-white">
-        <div className="container mx-auto px-6">
+        <div className="w-full sm:container sm:mx-auto sm:px-6 px-0">
           <h2 className="text-center text-sm font-medium text-gray-600 mb-12 tracking-wider uppercase">
             Community Stories
           </h2>
 
-          <div className="relative max-w-6xl mx-auto">
+          <div className="relative max-w-6xl mx-auto w-full">
             {/* Navigation Arrows */}
             <Button
               variant="outline"
               size="icon"
-              className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-white/90 backdrop-blur-sm hover:bg-white shadow-lg"
+              className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-white/90 backdrop-blur-sm hover:bg-white shadow-lg hidden sm:flex"
               onClick={handlePrevious}
             >
               <ChevronLeft className="h-4 w-4" />
@@ -132,7 +132,7 @@ export function StoriesCarousel() {
             <Button
               variant="outline"
               size="icon"
-              className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-white/90 backdrop-blur-sm hover:bg-white shadow-lg"
+              className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-white/90 backdrop-blur-sm hover:bg-white shadow-lg hidden sm:flex"
               onClick={handleNext}
             >
               <ChevronRight className="h-4 w-4" />
@@ -150,12 +150,12 @@ export function StoriesCarousel() {
                       position === "center"
                         ? "z-30 scale-100 opacity-100 translate-x-0"
                         : position === "left"
-                          ? "z-10 scale-75 opacity-40 -translate-x-64"
-                          : "z-10 scale-75 opacity-40 translate-x-64"
+                          ? "z-10 scale-75 opacity-40 -translate-x-32 sm:-translate-x-64"
+                          : "z-10 scale-75 opacity-40 translate-x-32 sm:translate-x-64"
                     }`}
                     onClick={() => handleStoryClick(story)}
                   >
-                    <Card className={`w-80 h-72 ${position === "center" ? "shadow-2xl" : "shadow-lg"}`}>
+                    <Card className={`w-full max-w-xs sm:w-80 h-72 ${position === "center" ? "shadow-2xl" : "shadow-lg"}`}>
                       <CardContent className="p-6 h-full flex flex-col justify-between">
                         <div>
                           <p className="text-gray-700 text-sm leading-relaxed line-clamp-6 mb-4">"{story.preview}"</p>
