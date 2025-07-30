@@ -26,7 +26,7 @@ export default function ClientLayout({
   return (
     <html lang="en">
       <head>
-        <title>PCOS Health Club - McMaster University</title>
+        <title>McMaster PCOS Society - McMaster University</title>
         <meta
           name="description"
           content="Supporting and empowering individuals with PCOS through community, education, and advocacy."

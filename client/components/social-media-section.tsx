@@ -21,7 +21,7 @@ export function SocialMediaSection() {
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-gray-600 text-center">
-                Follow us for daily inspiration, PCOS tips, and community highlights
+                Follow us for PCOS-related lifestyle, research, and upcoming events.
               </p>
 
               {/* Instagram Feed Placeholder - You'll need to replace this with actual Instagram integration */}
@@ -64,7 +64,7 @@ export function SocialMediaSection() {
               </p>
 
               <div className="bg-blue-50 rounded-lg p-6 text-center">
-                <h4 className="font-semibold text-gray-900 mb-2">McMaster PCOS Health Club</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">McMaster PCOS Society</h4>
                 <p className="text-sm text-gray-600 mb-4">
                   Empowering the PCOS community through education, support, and advocacy at McMaster University.
                 </p>

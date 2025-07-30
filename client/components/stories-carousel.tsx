@@ -27,7 +27,7 @@ I remember sitting in the doctor's office, hearing the words "polycystic ovary s
 
 The first few months were tough. I felt isolated and scared about what this diagnosis meant for my dreams of having a family someday. I spent countless nights researching online, often finding conflicting information that left me more confused than before.
 
-Then I found the McMaster PCOS Club. Walking into my first meeting, I was nervous but hopeful. Hearing other people share their experiences made me realize I wasn't alone in this journey. The education sessions helped me understand my condition better, and the support from other members gave me the strength to advocate for myself with healthcare providers.
+Then I found the McMaster PCOS Society. Walking into my first meeting, I was nervous but hopeful. Hearing other people share their experiences made me realize I wasn't alone in this journey. The education sessions helped me understand my condition better, and the support from other members gave me the strength to advocate for myself with healthcare providers.
 
 Now, two years later, I've learned to manage my symptoms through lifestyle changes and medication. More importantly, I've found my voice in helping others who are just starting their PCOS journey. This community didn't just help me understand PCOS – it helped me understand that I'm so much more than my diagnosis.
 
@@ -43,7 +43,7 @@ To anyone newly diagnosed: it gets easier, you're not alone, and there's a whole
 
 When my girlfriend was diagnosed with PCOS three years ago, I'll admit I didn't fully understand what it meant. I saw her struggling with symptoms, feeling frustrated with her body, and dealing with the emotional toll of the diagnosis, but I didn't know how to help.
 
-I started attending the McMaster PCOS Club meetings with her, initially just to be supportive. But I quickly realized how much I needed to learn. The educational sessions opened my eyes to the complexity of PCOS and how it affects every aspect of daily life.
+I started attending the McMaster PCOS Society meetings with her, initially just to be supportive. But I quickly realized how much I needed to learn. The educational sessions opened my eyes to the complexity of PCOS and how it affects every aspect of daily life.
 
 Learning about the hormonal imbalances, the increased risk of diabetes and heart disease, and the fertility concerns helped me understand why some days were harder than others. I learned that PCOS isn't just about irregular periods – it's a complex endocrine disorder that affects the whole body.
 
@@ -115,7 +115,7 @@ export function StoriesCarousel() {
       <section className="py-20 bg-white">
         <div className="w-full sm:container sm:mx-auto sm:px-6 px-0">
           <h2 className="text-center text-sm font-medium text-gray-600 mb-12 tracking-wider uppercase">
-            Community Stories
+            HerVoices
           </h2>
 
           <div className="relative max-w-6xl mx-auto w-full">

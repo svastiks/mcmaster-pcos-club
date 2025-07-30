@@ -22,7 +22,7 @@ export function Navigation() {
       <div className="container mx-auto px-6">
         <div className="flex justify-between items-center h-20">
           <Link href="/" className="text-2xl font-light text-gray-900 tracking-wide">
-            PCOS Health Club
+            McMaster PCOS Society
           </Link>
 
           {/* Desktop Navigation */}

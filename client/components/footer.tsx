@@ -6,10 +6,9 @@ export function Footer() {
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-4 gap-12">
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-light text-gray-900 mb-4 tracking-wide">PCOS Health Club</h3>
+            <h3 className="text-2xl font-light text-gray-900 mb-4 tracking-wide">McMaster PCOS Society</h3>
             <p className="text-gray-600 font-light leading-relaxed max-w-md">
-              McMaster University's dedicated community for PCOS support, education, and advocacy. Creating connections
-              that matter.
+              McMaster's PCOS Society spreads awareness through support, education, and advocacy. Creating connections that matter.
             </p>
           </div>
 
@@ -44,14 +43,16 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-medium text-gray-900 mb-6">Connect</h4>
+            <h4 className="font-medium text-gray-900 mb-6">Connect with us:</h4>
             <div className="space-y-3">
               <p className="text-gray-600 font-light">
-                McMaster University
+                Email: macpcossociety@gmail.com
                 <br />
-                Hamilton, ON
+                Instagram: @macpcos
                 <br />
-                Canada
+                LinkedIn: The McMaster PCOS Society
+                <br />
+                1280 Main St W, Hamilton, ON L8S 4L8, Canada
               </p>
             </div>
           </div>
@@ -59,7 +60,7 @@ export function Footer() {
 
         <div className="border-t border-gray-100 mt-12 pt-8">
           <p className="text-center text-gray-500 font-light">
-            © {new Date().getFullYear()} PCOS Health Club - McMaster University. All rights reserved.
+            © {new Date().getFullYear()} McMaster PCOS Society - McMaster University. All rights reserved.
           </p>
         </div>
       </div>

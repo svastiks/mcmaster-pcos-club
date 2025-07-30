@@ -63,7 +63,7 @@ export default function AboutPage() {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">About Us</h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Learn about our mission, values, and the team behind the PCOS Health Club at McMaster University.
+            Learn about our mission, values, and the team behind the McMaster PCOS Society at McMaster University.
           </p>
         </div>
 
@@ -107,7 +107,7 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent className="prose max-w-none">
               <p className="text-gray-700 leading-relaxed mb-4">
-                The PCOS Health Club was founded by a group of passionate McMaster University students who recognized
+                The McMaster PCOS Society was founded by a group of passionate McMaster University students who recognized
                 the need for better support and awareness around Polycystic Ovary Syndrome. Having witnessed friends and
                 family members struggle with PCOS diagnosis and management, our founders were motivated to create a
                 space where individuals could find community, education, and support.

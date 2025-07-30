@@ -10,9 +10,9 @@ export default function HomePage() {
       <section className="relative py-24 overflow-hidden bg-gradient-to-br from-rose-100 to-pink-50 w-full">
         <div className="container mx-auto px-0 sm:px-6 w-full max-w-full">
           <div className="text-center">
-            <h1 className="text-6xl md:text-8xl font-bold text-gray-900 mb-8 leading-tight">McMaster PCOS Club</h1>
+            <h1 className="text-6xl md:text-8xl font-bold text-gray-900 mb-8 leading-tight">McMaster PCOS Society</h1>
             <p className="text-xl text-gray-600 font-light max-w-2xl mx-auto">
-              Supporting and empowering individuals with PCOS through community, education, and advocacy.
+              Supporting and empowering individuals with PCOS through support, awareness and advocacy.
             </p>
           </div>
         </div>
@@ -30,8 +30,7 @@ export default function HomePage() {
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-sm font-medium text-gray-600 mb-4 tracking-wider uppercase">Who We Are</p>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8 leading-tight">
-              We're McMaster PCOS Club and we're here to help you find your
-              <span className="text-rose-600"> support story</span>
+              We are here to guide you towards the first step of understanding PCOS.
             </h2>
             <Button
               asChild
