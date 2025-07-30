@@ -67,60 +67,16 @@ export default function AboutPage() {
           </p>
         </div>
 
-        {/* Mission & Vision */}
-        <section className="mb-12">
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card>
-              <CardHeader>
-                <Target className="h-8 w-8 text-rose-600 mb-2" />
-                <CardTitle>Our Mission</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-700 leading-relaxed">
-                  To create a supportive and inclusive community for individuals affected by PCOS, providing education,
-                  resources, advocacy, and a platform for sharing experiences while promoting awareness and
-                  understanding of this complex condition.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <Heart className="h-8 w-8 text-rose-600 mb-2" />
-                <CardTitle>Our Vision</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-700 leading-relaxed">
-                  A world where every person with PCOS feels supported, informed, and empowered to manage their health
-                  and live their best life, free from stigma and with access to comprehensive care and resources.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-        </section>
-
-        {/* Our Story */}
+        {/* Mission */}
         <section className="mb-12">
           <Card>
             <CardHeader>
-              <CardTitle className="text-2xl">Our Story</CardTitle>
+              <Target className="h-8 w-8 text-rose-600 mb-2" />
+              <CardTitle>Our Mission</CardTitle>
             </CardHeader>
-            <CardContent className="prose max-w-none">
-              <p className="text-gray-700 leading-relaxed mb-4">
-                The McMaster PCOS Society was founded by a group of passionate McMaster University students who recognized
-                the need for better support and awareness around Polycystic Ovary Syndrome. Having witnessed friends and
-                family members struggle with PCOS diagnosis and management, our founders were motivated to create a
-                space where individuals could find community, education, and support.
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                What started as informal support meetings has grown into a comprehensive organization that serves not
-                only the McMaster community but also reaches individuals across the region. We believe that through
-                education, advocacy, and community building, we can make a meaningful difference in the lives of those
-                affected by PCOS.
-              </p>
+            <CardContent>
               <p className="text-gray-700 leading-relaxed">
-                Today, we continue to expand our programs, resources, and outreach efforts, always staying true to our
-                core values of compassion, inclusivity, and evidence-based support.
+                At the McMaster PCOS Society, we aim to build a safe space for those navigating PCOS through support, awareness and advocacy. Whether you're seeking answers or simply a community that gets it, we are here to rewrite the stigmatized narrative around PCOS together!
               </p>
             </CardContent>
           </Card>
@@ -180,54 +136,7 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* What We Do */}
-        <section className="mb-12">
-          <Card>
-            <CardHeader>
-              <CardTitle className="text-2xl">What We Do</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-2">Education & Awareness</h4>
-                  <ul className="text-gray-700 space-y-1 text-sm">
-                    <li>• Workshops on PCOS management</li>
-                    <li>• Research compilation and sharing</li>
-                    <li>• Awareness campaigns</li>
-                    <li>• Educational resource development</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-2">Community Support</h4>
-                  <ul className="text-gray-700 space-y-1 text-sm">
-                    <li>• Support group meetings</li>
-                    <li>• Peer mentorship programs</li>
-                    <li>• Story sharing platform</li>
-                    <li>• Online community forums</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-2">Advocacy</h4>
-                  <ul className="text-gray-700 space-y-1 text-sm">
-                    <li>• Healthcare system advocacy</li>
-                    <li>• Policy awareness initiatives</li>
-                    <li>• Collaboration with medical professionals</li>
-                    <li>• Research support and promotion</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-2">Resources</h4>
-                  <ul className="text-gray-700 space-y-1 text-sm">
-                    <li>• Helpline directory</li>
-                    <li>• Healthcare provider recommendations</li>
-                    <li>• Lifestyle management guides</li>
-                    <li>• Emergency support resources</li>
-                  </ul>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        </section>
+
 
         {/* Feedback Form */}
         <section>

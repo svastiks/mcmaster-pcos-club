@@ -36,8 +36,8 @@ export default function ResourcesPage() {
       availability: "24/7",
     },
     {
-      name: "PCOS Challenge",
-      description: "International PCOS support organization",
+      name: "Pcos Together",
+      description: "For updates on studies and publications research regarding PCOS",
       website: "https://pcoschallenge.org",
       type: "PCOS Support",
       availability: "Online Resources",
@@ -124,7 +124,7 @@ export default function ResourcesPage() {
         </section>
 
         {/* Additional Support */}
-        <section>
+        <section className="mb-12">
           <Card>
             <CardHeader>
               <CardTitle>Need More Support?</CardTitle>
@@ -143,6 +143,20 @@ export default function ResourcesPage() {
                   <Link href="/hervoices">Share Your Experience</Link>
                 </Button>
               </div>
+            </CardContent>
+          </Card>
+        </section>
+
+        {/* Contact Us */}
+        <section>
+          <Card>
+            <CardHeader>
+              <CardTitle>Contact us</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p className="text-gray-700">
+                Email: <a href="mailto:macpcossociety@gmail.com" className="text-rose-600 hover:text-rose-700">macpcossociety@gmail.com</a>
+              </p>
             </CardContent>
           </Card>
         </section>

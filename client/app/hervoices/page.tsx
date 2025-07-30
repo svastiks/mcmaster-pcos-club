@@ -149,6 +149,10 @@ export default function HerVoicesPage() {
                   >
                     {isSubmitting ? "Submitting..." : "Share My Story"}
                   </Button>
+                  
+                  <p className="text-sm text-gray-500 text-center mt-4">
+                    We prioritize your privacy and safety by allowing anonymous sharing, reviewing all stories before publication, keeping your email confidential, and honouring removal requests at any time.
+                  </p>
                 </form>
               </CardContent>
             </Card>
@@ -158,7 +162,7 @@ export default function HerVoicesPage() {
           <div className="lg:col-span-1 space-y-6">
             <Card>
               <CardHeader>
-                <CardTitle className="text-lg">Why Share?</CardTitle>
+                <CardTitle className="text-lg">Rewrite the narrative by sharing your experience!</CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
                 <p className="text-sm text-gray-600">• Help others feel less alone</p>

@@ -44,7 +44,7 @@ export default function GetInvolvedPage() {
         <div className="text-center mb-16">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">Get Involved</h1>
           <p className="text-xl text-gray-600 font-light max-w-3xl mx-auto">
-            Join our mission to support the PCOS community through volunteering or donations.
+            Join our mission to support the PCOS community by becoming a general member, attending events, or donating to the cause.
           </p>
         </div>
 
@@ -53,13 +53,13 @@ export default function GetInvolvedPage() {
           <Card className="shadow-lg">
             <CardHeader className="text-center pb-8">
               <CardTitle className="text-3xl font-bold mb-4">Support Our Cause</CardTitle>
-              <CardDescription className="text-lg">
-                Your donation helps us provide resources, organize events, and support the PCOS community.
-              </CardDescription>
             </CardHeader>
             <CardContent className="text-center">
               <p className="text-gray-700 mb-8 text-lg">
-                Every contribution, no matter the size, makes a difference in supporting individuals with PCOS.
+                Every single contribution makes a difference in supporting individuals with PCOS.
+              </p>
+              <p className="text-gray-600 mb-8 text-base">
+                Funds gathered by McMaster PCOS Society proceed towards PCOS Together at the University of Alberta. Your donations support polycystic ovarian (PCOS) research and innovation that seeks truth and solves problems.
               </p>
               <Button asChild size="lg" className="bg-rose-600 hover:bg-rose-700 px-8 py-4 text-lg">
                 <Link href="https://gofundme.com/your-campaign" target="_blank" rel="noopener noreferrer">
@@ -70,41 +70,7 @@ export default function GetInvolvedPage() {
             </CardContent>
           </Card>
 
-          {/* Available Positions */}
-          <Card className="shadow-lg">
-            <CardHeader className="text-center pb-8">
-              <CardTitle className="text-3xl font-bold mb-4">Available Positions</CardTitle>
-              <CardDescription className="text-lg">
-                {availablePositions.length > 0 ? "Click on any position to apply" : "No positions currently available"}
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              {availablePositions.length > 0 ? (
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {availablePositions.map((position, index) => (
-                    <div
-                      key={index}
-                      onClick={() => handlePositionClick(position.title)}
-                      className="border rounded-xl p-6 cursor-pointer hover:shadow-lg transition-all duration-300 hover:border-rose-300 bg-white"
-                    >
-                      <h4 className="font-bold text-gray-900 text-lg mb-3">{position.title}</h4>
-                      <p className="text-gray-600 mb-4 leading-relaxed">{position.description}</p>
-                      <p className="text-sm text-rose-600 font-medium">Commitment: {position.commitment}</p>
-                    </div>
-                  ))}
-                </div>
-              ) : (
-                <div className="text-center py-12">
-                  <p className="text-gray-600 mb-4 text-lg">
-                    We don't have any open positions at the moment, but we'd love to hear from you!
-                  </p>
-                  <p className="text-gray-500">
-                    Check back soon or reach out to express your interest in future opportunities.
-                  </p>
-                </div>
-              )}
-            </CardContent>
-          </Card>
+
 
           {/* Upcoming Events */}
           <Card className="shadow-lg">
@@ -114,7 +80,7 @@ export default function GetInvolvedPage() {
                 Upcoming Events
               </CardTitle>
               <CardDescription className="text-lg">
-                Join us for workshops, support groups, and awareness events.
+                Join us for workshops, fundraisers, and awareness events.
               </CardDescription>
             </CardHeader>
             <CardContent>
