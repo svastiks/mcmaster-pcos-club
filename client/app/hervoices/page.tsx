@@ -1,7 +1,7 @@
 "use client"
 
 import type React from "react"
-import { useState, useEffect } from "react"
+import { useState, useEffect, Suspense } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -12,7 +12,7 @@ import { useToast } from "@/hooks/use-toast"
 import { useSearchParams } from "next/navigation"
 import { StoryModal } from "@/components/story-modal"
 
-export default function HerVoicesPage() {
+function HerVoicesContent() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [selectedStory, setSelectedStory] = useState<any>(null)
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -306,5 +306,17 @@ University is stressful enough without dealing with PCOS alone. This club made a
       {/* Story Modal */}
       <StoryModal isOpen={isModalOpen} onClose={handleCloseModal} story={selectedStory} />
     </div>
+  )
+}
+
+export default function HerVoicesPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen py-16 bg-gray-50 flex items-center justify-center">
+      <div className="text-center">
+        <p className="text-gray-600">Loading...</p>
+      </div>
+    </div>}>
+      <HerVoicesContent />
+    </Suspense>
   )
 }
