@@ -5,6 +5,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { StoryModal } from "./story-modal"
+import Link from "next/link"
 
 interface Story {
   id: number
@@ -153,22 +154,23 @@ export function StoriesCarousel() {
                           ? "z-10 scale-75 opacity-40 -translate-x-32 sm:-translate-x-64"
                           : "z-10 scale-75 opacity-40 translate-x-32 sm:translate-x-64"
                     }`}
-                    onClick={() => handleStoryClick(story)}
                   >
-                    <Card className={`w-full max-w-xs sm:w-80 h-72 ${position === "center" ? "shadow-2xl" : "shadow-lg"}`}>
-                      <CardContent className="p-6 h-full flex flex-col justify-between">
-                        <div>
-                          <p className="text-gray-700 text-sm leading-relaxed line-clamp-6 mb-4">"{story.preview}"</p>
-                        </div>
-                        <div className="flex items-center justify-between">
+                    <Link href={`/hervoices#story-${story.id}`} className="block">
+                      <Card className={`w-full max-w-xs sm:w-80 h-72 ${position === "center" ? "shadow-2xl" : "shadow-lg"}`}>
+                        <CardContent className="p-6 h-full flex flex-col justify-between">
                           <div>
-                            <p className="font-medium text-gray-900">{story.isAnonymous ? "Anonymous" : story.name}</p>
-                            {story.age && <p className="text-sm text-gray-500">Age {story.age}</p>}
+                            <p className="text-gray-700 text-sm leading-relaxed line-clamp-6 mb-4">"{story.preview}"</p>
                           </div>
-                          <button className="text-rose-600 text-sm font-medium hover:text-rose-700">Read More →</button>
-                        </div>
-                      </CardContent>
-                    </Card>
+                          <div className="flex items-center justify-between">
+                            <div>
+                              <p className="font-medium text-gray-900">{story.isAnonymous ? "Anonymous" : story.name}</p>
+                              {story.age && <p className="text-sm text-gray-500">Age {story.age}</p>}
+                            </div>
+                            <span className="text-rose-600 text-sm font-medium hover:text-rose-700">Read More →</span>
+                          </div>
+                        </CardContent>
+                      </Card>
+                    </Link>
                   </div>
                 )
               })}

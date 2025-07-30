@@ -6,11 +6,11 @@ import Link from "next/link"
 export default function ResourcesPage() {
   const helplines = [
     {
-      name: "Crisis Text Line",
-      description: "24/7 crisis support via text message",
-      contact: "Text HOME to 741741",
-      type: "Crisis Support",
-      availability: "24/7",
+      name: "Pcos Together",
+      description: "For updates on studies and publications research regarding PCOS",
+      website: "https://pcoschallenge.org",
+      type: "PCOS Support",
+      availability: "Online Resources",
     },
     {
       name: "Distress Centre Hamilton",
@@ -19,6 +19,15 @@ export default function ResourcesPage() {
       website: "https://www.distresscentrehamilton.ca",
       type: "Crisis Support",
       availability: "24/7",
+    },
+    {
+      name: "McMaster Student Wellness Centre",
+      description: "On-campus counseling and health services",
+      phone: "905-525-9140 ext. 27700",
+      website: "https://wellness.mcmaster.ca",
+      location: "McMaster University Campus",
+      type: "Student Health",
+      availability: "Business Hours",
     },
     {
       name: "Good2Talk",
@@ -36,20 +45,11 @@ export default function ResourcesPage() {
       availability: "24/7",
     },
     {
-      name: "Pcos Together",
-      description: "For updates on studies and publications research regarding PCOS",
-      website: "https://pcoschallenge.org",
-      type: "PCOS Support",
-      availability: "Online Resources",
-    },
-    {
-      name: "McMaster Student Wellness Centre",
-      description: "On-campus counseling and health services",
-      phone: "905-525-9140 ext. 27700",
-      website: "https://wellness.mcmaster.ca",
-      location: "McMaster University Campus",
-      type: "Student Health",
-      availability: "Business Hours",
+      name: "Crisis Text Line",
+      description: "24/7 crisis support via text message",
+      contact: "Text HOME to 741741",
+      type: "Crisis Support",
+      availability: "24/7",
     },
   ]
 

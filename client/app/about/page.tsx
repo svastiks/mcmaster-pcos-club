@@ -82,6 +82,64 @@ export default function AboutPage() {
           </Card>
         </section>
 
+        {/* Team Picture */}
+        <section className="mb-12">
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-2xl">Our Team</CardTitle>
+            </CardHeader>
+            <CardContent>
+              {/* TODO: Insert team picture component here once the image is available. */}
+              <div className="bg-gray-100 rounded-lg p-12 text-center">
+                <p className="text-gray-500 text-lg">Team photo coming soon...</p>
+                <p className="text-gray-400 text-sm mt-2">Placeholder for team picture</p>
+              </div>
+            </CardContent>
+          </Card>
+        </section>
+
+        {/* Quotes */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">What Our Team Says</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <Card className="shadow-lg">
+              <CardContent className="p-8 text-center">
+                <blockquote className="text-lg text-gray-700 italic mb-4">
+                  "Our mission is to create a space where no one feels alone in their PCOS journey. Every story shared, every connection made, brings us closer to breaking the stigma."
+                </blockquote>
+                <cite className="text-gray-600 font-medium">— Sarah Chen, Co-founder</cite>
+              </CardContent>
+            </Card>
+            
+            <Card className="shadow-lg">
+              <CardContent className="p-8 text-center">
+                <blockquote className="text-lg text-gray-700 italic mb-4">
+                  "Education is empowerment. By sharing accurate, research-based information, we're helping individuals make informed decisions about their health."
+                </blockquote>
+                <cite className="text-gray-600 font-medium">— Dr. Emily Rodriguez, Research Lead</cite>
+              </CardContent>
+            </Card>
+            
+            <Card className="shadow-lg">
+              <CardContent className="p-8 text-center">
+                <blockquote className="text-lg text-gray-700 italic mb-4">
+                  "Community support is the foundation of everything we do. When people connect and share experiences, incredible things happen."
+                </blockquote>
+                <cite className="text-gray-600 font-medium">— Maya Patel, Community Coordinator</cite>
+              </CardContent>
+            </Card>
+            
+            <Card className="shadow-lg">
+              <CardContent className="p-8 text-center">
+                <blockquote className="text-lg text-gray-700 italic mb-4">
+                  "Advocacy isn't just about raising awareness—it's about creating real change in healthcare and policy for the PCOS community."
+                </blockquote>
+                <cite className="text-gray-600 font-medium">— Alex Thompson, Advocacy Director</cite>
+              </CardContent>
+            </Card>
+          </div>
+        </section>
+
         {/* Our Values */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Our Values</h2>

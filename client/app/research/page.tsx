@@ -9,6 +9,40 @@ export default function ResearchPage() {
           <h1 className="text-4xl font-bold text-gray-900 mb-4">PCOS Research Hub</h1>
         </div>
 
+        {/* Explore Topics */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Explore topics related to PCOS</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <Card className="shadow-lg hover:shadow-xl transition-shadow cursor-pointer">
+              <CardContent className="p-6 text-center">
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">Causes, diagnoses, and symptoms</h3>
+                <p className="text-gray-600 text-sm">Understanding the fundamentals of PCOS</p>
+              </CardContent>
+            </Card>
+            
+            <Card className="shadow-lg hover:shadow-xl transition-shadow cursor-pointer">
+              <CardContent className="p-6 text-center">
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">Long-term health effects</h3>
+                <p className="text-gray-600 text-sm">Research on PCOS complications and outcomes</p>
+              </CardContent>
+            </Card>
+            
+            <Card className="shadow-lg hover:shadow-xl transition-shadow cursor-pointer">
+              <CardContent className="p-6 text-center">
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">Management and treatment</h3>
+                <p className="text-gray-600 text-sm">Latest approaches to PCOS care</p>
+              </CardContent>
+            </Card>
+            
+            <Card className="shadow-lg hover:shadow-xl transition-shadow cursor-pointer">
+              <CardContent className="p-6 text-center">
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">Latest news and clinical trials</h3>
+                <p className="text-gray-600 text-sm">Breaking research and ongoing studies</p>
+              </CardContent>
+            </Card>
+          </div>
+        </section>
+
         {/* FAQ */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
