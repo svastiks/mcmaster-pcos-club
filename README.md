@@ -22,6 +22,13 @@ The McMaster PCOS Society is a student-led organization at McMaster University d
 
 ## Technical Stack
 
+### Languages & Technologies
+- **TypeScript**
+- **HTML/CSS**
+- **Tailwind CSS**
+- **Next.js 15**
+- **React**
+
 ### Prerequisites
 - Node.js 18+ 
 - npm or yarn
