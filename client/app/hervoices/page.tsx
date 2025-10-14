@@ -24,64 +24,16 @@ function HerVoicesContent() {
     {
       id: 1,
       name: "Anonymous",
-      age: 24,
-      preview: "Getting diagnosed with PCOS at 22 felt overwhelming, but finding this community changed everything...",
-      fullStory: `Getting diagnosed with PCOS at 22 felt overwhelming, but finding this community changed everything for me.
+      age: 17,
+      preview: "In 2023, at just 17 years old, I stopped taking birth control for the first time in three years...",
+      fullStory: `In 2023, at just 17 years old, I stopped taking birth control for the first time in three years. Almost immediately, I began experiencing troubling symptoms: cystic acne, dark hair growth on my chin, and intense mood swings. I tried to speak with a doctor, but due to the lack of access in my area—no family doctor and even fewer specialists—I struggled to get proper medical support.
 
-I remember sitting in the doctor's office, hearing the words "polycystic ovary syndrome" and feeling completely lost. The irregular periods, weight gain, and mood swings suddenly had a name, but I didn't know what that meant for my future.
+To this day, I still haven't been able to see a gynecologist. Through virtual consultations with nurse practitioners and general practitioners, I received a tentative diagnosis of PCOS. I was told: "There's not much that can be done anyway. Just go back on birth control, and if you have fertility issues in 5–10 years—which you most likely will—see a specialist then for a proper diagnosis and treatment."
 
-The first few months were tough. I felt isolated and scared about what this diagnosis meant for my dreams of having a family someday. I spent countless nights researching online, often finding conflicting information that left me more confused than before.
+All my life, I've dreamed of becoming a mother. And in a single phone call, I was told that would likely be difficult—and that no one could really do anything about it. I was advised to return to the same medication that may have contributed to these issues in the first place, and to simply move on.
 
-Then I found the McMaster PCOS Society. Walking into my first meeting, I was nervous but hopeful. Hearing other people share their experiences made me realize I wasn't alone in this journey. The education sessions helped me understand my condition better, and the support from other members gave me the strength to advocate for myself with healthcare providers.
-
-Now, two years later, I've learned to manage my symptoms through lifestyle changes and medication. More importantly, I've found my voice in helping others who are just starting their PCOS journey. This community didn't just help me understand PCOS – it helped me understand that I'm so much more than my diagnosis.
-
-To anyone newly diagnosed: it gets easier, you're not alone, and there's a whole community here ready to support you.`,
+That moment broke my heart—and it still does. Every time my period arrives, I'm reminded of the pain, both physical and emotional, and of the fear that my body may fail me in the future. But I'm learning to remind myself: I am not broken. I am not a failure. The real failure lies in a healthcare system that continues to ignore and dismiss the needs of thousands of women every day.`,
       isAnonymous: true,
-    },
-    {
-      id: 2,
-      name: "John Doe",
-      age: 28,
-      preview: "As a partner of someone with PCOS, I wanted to learn how to be more supportive...",
-      fullStory: `As a partner of someone with PCOS, I wanted to learn how to be more supportive and understanding.
-
-When my girlfriend was diagnosed with PCOS three years ago, I'll admit I didn't fully understand what it meant. I saw her struggling with symptoms, feeling frustrated with her body, and dealing with the emotional toll of the diagnosis, but I didn't know how to help.
-
-I started attending the McMaster PCOS Society meetings with her, initially just to be supportive. But I quickly realized how much I needed to learn. The educational sessions opened my eyes to the complexity of PCOS and how it affects every aspect of daily life.
-
-Learning about the hormonal imbalances, the increased risk of diabetes and heart disease, and the fertility concerns helped me understand why some days were harder than others. I learned that PCOS isn't just about irregular periods – it's a complex endocrine disorder that affects the whole body.
-
-The club taught me practical ways to be supportive: helping with meal planning for insulin resistance, being patient during hormonal fluctuations, and celebrating small victories in symptom management. I also learned when to give space and when to offer help.
-
-Most importantly, I learned to listen without trying to "fix" everything. Sometimes the best support is just acknowledging how difficult PCOS can be and being there through the ups and downs.
-
-To other partners: educate yourself, be patient, and remember that your support means more than you know. This community welcomes everyone who wants to learn and help.`,
-      isAnonymous: false,
-    },
-    {
-      id: 3,
-      name: "John Doe",
-      age: 26,
-      preview: "Managing PCOS while in university was challenging, but the club helped me find balance...",
-      fullStory: `Managing PCOS while in university was challenging, but the club helped me find balance between my health and academic goals.
-
-Being diagnosed with PCOS during my second year at McMaster felt like terrible timing. I was already stressed with coursework, and suddenly I had to deal with irregular periods, fatigue, and the emotional impact of a chronic condition.
-
-The symptoms were affecting my academic performance. The fatigue made it hard to concentrate during lectures, and the mood swings from hormonal imbalances made group projects challenging. I was gaining weight despite trying to eat well, and my self-confidence was at an all-time low.
-
-I almost didn't join the PCOS Club because I was worried about adding another commitment to my schedule. But it turned out to be one of the best decisions I made during university.
-
-The club meetings became a safe space where I could talk about my struggles without judgment. Other students shared practical tips for managing symptoms while keeping up with academics: meal prep strategies for busy weeks, exercise routines that fit around class schedules, and stress management techniques for exam periods.
-
-The educational workshops helped me understand how stress was worsening my PCOS symptoms, creating a vicious cycle. Learning about the connection between cortisol and insulin resistance motivated me to prioritize self-care, not just see it as "being lazy."
-
-I also connected with healthcare providers through the club's resource network, finding doctors who understood both PCOS and the unique challenges of being a student.
-
-Now in my final year, I've learned to manage my PCOS as part of my overall wellness routine. My grades improved once I started taking care of my health, and I've even become a peer mentor for newly diagnosed students.
-
-University is stressful enough without dealing with PCOS alone. This club made all the difference in helping me succeed academically while taking care of my health.`,
-      isAnonymous: false,
     },
   ]
 

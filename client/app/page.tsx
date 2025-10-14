@@ -7,11 +7,11 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-gray-50 w-full max-w-full overflow-x-hidden">
       {/* Hero Section - Clean title only */}
-      <section className="relative py-24 overflow-hidden bg-gradient-to-br from-rose-100 to-pink-50 w-full">
+      <section className="relative py-24 overflow-hidden w-full" style={{backgroundColor: '#61000b'}}>
         <div className="container mx-auto px-0 sm:px-6 w-full max-w-full">
           <div className="text-center">
-            <h1 className="text-6xl md:text-8xl font-bold text-gray-900 mb-8 leading-tight">McMaster PCOS Society</h1>
-            <p className="text-xl text-gray-600 font-light max-w-2xl mx-auto">
+            <h1 className="text-6xl md:text-8xl font-bold text-white mb-8 leading-tight" style={{fontFamily: 'Times New Roman, serif'}}>PCOS Society</h1>
+            <p className="text-xl text-white font-light max-w-2xl mx-auto">
               Supporting and empowering individuals with PCOS through support, awareness and advocacy.
             </p>
           </div>

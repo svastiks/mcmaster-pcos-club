@@ -8,7 +8,7 @@ export default function ResourcesPage() {
     {
       name: "Pcos Together",
       description: "For updates on studies and publications research regarding PCOS",
-      website: "https://pcoschallenge.org",
+      website: "https://pcos.together.ualberta.ca/",
       type: "PCOS Support",
       availability: "Online Resources",
     },
