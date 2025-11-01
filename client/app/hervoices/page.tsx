@@ -2,6 +2,8 @@
 
 import type React from "react"
 import { useState, useEffect, Suspense } from "react"
+import Link from "next/link"
+import { ExternalLink } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -142,86 +144,13 @@ That moment broke my heart—and it still does. Every time my period arrives, I'
               <CardHeader className="pb-8">
                 <CardTitle className="text-2xl font-bold text-center">Share Your Story</CardTitle>
               </CardHeader>
-              <CardContent>
-                <form onSubmit={handleSubmit} className="space-y-8">
-                  <div className="grid md:grid-cols-2 gap-6">
-                    <div className="space-y-2">
-                      <Label htmlFor="name" className="text-base font-medium">
-                        Name
-                      </Label>
-                      <Input id="name" name="name" placeholder="Your name" required className="h-12" />
-                    </div>
-                    <div className="space-y-2">
-                      <Label htmlFor="email" className="text-base font-medium">
-                        Email
-                      </Label>
-                      <Input
-                        id="email"
-                        name="email"
-                        type="email"
-                        placeholder="your.email@example.com"
-                        required
-                        className="h-12"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="space-y-2">
-                    <Label htmlFor="age" className="text-base font-medium">
-                      Age (Optional)
-                    </Label>
-                    <Input
-                      id="age"
-                      name="age"
-                      type="number"
-                      placeholder="Your age"
-                      min="13"
-                      max="100"
-                      className="h-12"
-                    />
-                  </div>
-
-                  <div className="space-y-2">
-                    <Label htmlFor="story" className="text-base font-medium">
-                      Your PCOS Story
-                    </Label>
-                    <Textarea
-                      id="story"
-                      name="story"
-                      placeholder="Share your experience with PCOS - your diagnosis journey, challenges, victories, tips, or anything you'd like others to know..."
-                      className="min-h-[300px] text-base"
-                      required
-                    />
-                  </div>
-
-                  <div className="space-y-4">
-                    <div className="flex items-center space-x-3">
-                      <Checkbox id="anonymous" name="anonymous" />
-                      <Label htmlFor="anonymous" className="text-base">
-                        Share my story anonymously
-                      </Label>
-                    </div>
-
-                    <div className="flex items-center space-x-3">
-                      <Checkbox id="consent" name="consent" required />
-                      <Label htmlFor="consent" className="text-base">
-                        I consent to sharing my story with the community
-                      </Label>
-                    </div>
-                  </div>
-
-                  <Button
-                    type="submit"
-                    className="w-full bg-rose-600 hover:bg-rose-700 h-12 text-base font-medium"
-                    disabled={isSubmitting}
-                  >
-                    {isSubmitting ? "Submitting..." : "Share My Story"}
-                  </Button>
-                  
-                  <p className="text-sm text-gray-500 text-center mt-4">
-                    We prioritize your privacy and safety by allowing anonymous sharing, reviewing all stories before publication, keeping your email confidential, and honouring removal requests at any time.
-                  </p>
-                </form>
+              <CardContent className="text-center">
+                <Button asChild size="lg" className="bg-rose-600 hover:bg-rose-700 px-8 py-4 text-lg">
+                  <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdTa5eURR9WHDWTns09TvwMGScuI6oZr34zcUA2Uwt6BZlIAg/viewform?usp=header" target="_blank" rel="noopener noreferrer">
+                    Submit your story here!
+                    <ExternalLink className="ml-2 h-5 w-5" />
+                  </Link>
+                </Button>
               </CardContent>
             </Card>
           </div>
