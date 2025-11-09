@@ -54,9 +54,9 @@ export default function GetInvolvedPage() {
   useEffect(() => {
     const fetchEvents = async () => {
       try {
-        const response = await fetch('/events.json')
-        const data = await response.json()
-        setEvents(data)
+        // const response = await fetch('/events.json')
+        // const data = await response.json()
+        // setEvents(data)
       } catch (error) {
         console.error('Error loading events:', error)
       } finally {
@@ -78,7 +78,7 @@ export default function GetInvolvedPage() {
         </div>
 
         <div className="max-w-4xl mx-auto space-y-12">
-          {/* Donation Section */}
+          {/* Donation Section
           <Card className="shadow-lg">
             <CardHeader className="text-center pb-8">
               <CardTitle className="text-3xl font-bold mb-4">Support Our Cause</CardTitle>
@@ -97,12 +97,10 @@ export default function GetInvolvedPage() {
                 </Link>
               </Button>
             </CardContent>
-          </Card>
-
-
+          </Card> */}
 
           {/* Community Impact */}
-          <Card className="shadow-lg">
+          {/* <Card className="shadow-lg">
             <CardHeader className="text-center pb-8">
               <CardTitle className="text-3xl font-bold mb-4">Community Impact</CardTitle>
               <CardDescription className="text-lg">
@@ -117,7 +115,7 @@ export default function GetInvolvedPage() {
                 <Link href="/hervoices">View Stories</Link>
               </Button>
             </CardContent>
-          </Card>
+          </Card> */}
 
           {/* Upcoming Events */}
           <Card className="shadow-lg">
