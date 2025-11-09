@@ -6,19 +6,11 @@ import Link from "next/link"
 export default function ResourcesPage() {
   const helplines = [
     {
-      name: "Pcos Together",
+      name: "PCOS Together",
       description: "For updates on studies and publications research regarding PCOS",
       website: "https://pcos.together.ualberta.ca/",
       type: "PCOS Support",
       availability: "Online Resources",
-    },
-    {
-      name: "Distress Centre Hamilton",
-      description: "Local crisis support and counseling services",
-      phone: "905-525-8611",
-      website: "https://www.distresscentrehamilton.ca",
-      type: "Crisis Support",
-      availability: "24/7",
     },
     {
       name: "McMaster Student Wellness Centre",
@@ -48,6 +40,7 @@ export default function ResourcesPage() {
       name: "Crisis Text Line",
       description: "24/7 crisis support via text message",
       contact: "Text HOME to 741741",
+      website: "https://www.crisistextline.org",
       type: "Crisis Support",
       availability: "24/7",
     },

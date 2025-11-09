@@ -12,7 +12,7 @@ export default function HomePage() {
           <div className="text-center">
             <h1 className="text-6xl md:text-8xl font-bold text-white mb-8 leading-tight" style={{fontFamily: 'Times New Roman, serif'}}>PCOS Society</h1>
             <p className="text-xl text-white font-light max-w-2xl mx-auto">
-              Supporting and empowering individuals with PCOS through support, awareness and advocacy.
+            Supporting and empowering individuals with Polycystic Ovarian Syndrome through awareness and advocacy.
             </p>
           </div>
         </div>

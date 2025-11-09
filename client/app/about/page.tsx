@@ -92,13 +92,12 @@ export default function AboutPage() {
               {/* TODO: Insert team picture component here once the image is available. */}
               <div className="bg-gray-100 rounded-lg p-12 text-center">
                 <p className="text-gray-500 text-lg">Team photo coming soon...</p>
-                <p className="text-gray-400 text-sm mt-2">Placeholder for team picture</p>
               </div>
             </CardContent>
           </Card>
         </section>
 
-        {/* Quotes */}
+        {/* Quotes
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">What Our Team Says</h2>
           <div className="grid md:grid-cols-2 gap-8">
@@ -138,7 +137,7 @@ export default function AboutPage() {
               </CardContent>
             </Card>
           </div>
-        </section>
+        </section> */}
 
         {/* Our Values */}
         <section className="mb-12">
@@ -192,65 +191,6 @@ export default function AboutPage() {
               </CardContent>
             </Card>
           </div>
-        </section>
-
-
-
-        {/* Feedback Form */}
-        <section>
-          <Card className="max-w-2xl mx-auto">
-            <CardHeader>
-              <CardTitle>We Value Your Feedback</CardTitle>
-              <CardDescription>Help us improve our services and better serve the PCOS community.</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <form onSubmit={handleFeedbackSubmit} className="space-y-6">
-                <div className="grid md:grid-cols-2 gap-4">
-                  <div className="space-y-2">
-                    <Label htmlFor="name">Name (Optional)</Label>
-                    <Input id="name" name="name" placeholder="Your name" />
-                  </div>
-
-                  <div className="space-y-2">
-                    <Label htmlFor="email">Email (Optional)</Label>
-                    <Input id="email" name="email" type="email" placeholder="your.email@example.com" />
-                  </div>
-                </div>
-
-                <div className="space-y-2">
-                  <Label htmlFor="category">Feedback Category</Label>
-                  <Select name="category" required>
-                    <SelectTrigger>
-                      <SelectValue placeholder="Select feedback type" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="general">General Feedback</SelectItem>
-                      <SelectItem value="website">Website Experience</SelectItem>
-                      <SelectItem value="resources">Resources & Content</SelectItem>
-                      <SelectItem value="events">Events & Programs</SelectItem>
-                      <SelectItem value="suggestion">Suggestion</SelectItem>
-                      <SelectItem value="complaint">Complaint</SelectItem>
-                    </SelectContent>
-                  </Select>
-                </div>
-
-                <div className="space-y-2">
-                  <Label htmlFor="feedback">Your Feedback</Label>
-                  <Textarea
-                    id="feedback"
-                    name="feedback"
-                    placeholder="Please share your thoughts, suggestions, or concerns..."
-                    className="min-h-[120px]"
-                    required
-                  />
-                </div>
-
-                <Button type="submit" className="w-full bg-rose-600 hover:bg-rose-700" disabled={isSubmitting}>
-                  {isSubmitting ? "Submitting..." : "Submit Feedback"}
-                </Button>
-              </form>
-            </CardContent>
-          </Card>
         </section>
       </div>
     </div>
