@@ -115,71 +115,77 @@ That moment broke my heart—and it still does. Every time my period arrives, I'
           </p>
         </div>
 
-        {/* Stories List Section */}
-        <div className="max-w-6xl mx-auto mb-16">
+        {/* Main Content Grid - Clean 2-column layout */}
+        <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Community Stories</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {stories.map((story) => (
-              <Card key={story.id} className="shadow-lg hover:shadow-xl transition-shadow cursor-pointer" onClick={() => handleStoryClick(story)}>
-                <CardContent className="p-6">
-                  <p className="text-gray-700 text-sm leading-relaxed line-clamp-4 mb-4">"{story.preview}"</p>
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <p className="font-medium text-gray-900">{story.isAnonymous ? "Anonymous" : story.name}</p>
-                      {story.age && <p className="text-sm text-gray-500">Age {story.age}</p>}
+          
+          <div className="grid lg:grid-cols-2 gap-6">
+            {/* Left Column - Story card */}
+            <div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Story Submissions</h3>
+              {stories.map((story) => (
+                <Card key={story.id} className="shadow-lg hover:shadow-xl transition-shadow cursor-pointer" onClick={() => handleStoryClick(story)}>
+                  <CardContent className="p-6">
+                    <p className="text-gray-700 text-sm leading-relaxed line-clamp-4 mb-4">"{story.preview}"</p>
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <p className="font-medium text-gray-900">{story.isAnonymous ? "Anonymous" : story.name}</p>
+                        {story.age && <p className="text-sm text-gray-500">Age {story.age}</p>}
+                      </div>
+                      <span className="text-rose-600 text-sm font-medium hover:text-rose-700">Read More →</span>
                     </div>
-                    <span className="text-rose-600 text-sm font-medium hover:text-rose-700">Read More →</span>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+
+            {/* Right Column - Combined Share Your Story and Instruction cards */}
+            <div>
+              <Card className="shadow-lg">
+                <CardHeader className="pb-6">
+                  <CardTitle className="text-2xl font-bold text-center">Share Your Story</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-6">
+                  {/* Submit Button */}
+                  <div className="text-center">
+                    <Button asChild size="lg" className="bg-rose-600 hover:bg-rose-700 px-8 py-4 text-lg">
+                      <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdTa5eURR9WHDWTns09TvwMGScuI6oZr34zcUA2Uwt6BZlIAg/viewform?usp=header" target="_blank" rel="noopener noreferrer">
+                        Submit your story here!
+                        <ExternalLink className="ml-2 h-5 w-5" />
+                      </Link>
+                    </Button>
+                  </div>
+
+                  {/* Divider */}
+                  <div className="border-t border-gray-200"></div>
+
+                  {/* Rewrite the narrative section */}
+                  <div>
+                    <h4 className="text-lg font-semibold text-gray-900 mb-3">Rewrite the narrative by sharing your experience!</h4>
+                    <ul className="space-y-2">
+                      <li className="text-sm text-gray-600">• Help others feel less alone</li>
+                      <li className="text-sm text-gray-600">• Share valuable insights</li>
+                      <li className="text-sm text-gray-600">• Build community support</li>
+                      <li className="text-sm text-gray-600">• Raise PCOS awareness</li>
+                    </ul>
+                  </div>
+
+                  {/* Divider */}
+                  <div className="border-t border-gray-200"></div>
+
+                  {/* Privacy & Safety section */}
+                  <div>
+                    <h4 className="text-lg font-semibold text-gray-900 mb-3">Privacy & Safety</h4>
+                    <ul className="space-y-2">
+                      <li className="text-sm text-gray-600">• Anonymous sharing available</li>
+                      <li className="text-sm text-gray-600">• Stories reviewed before publication</li>
+                      <li className="text-sm text-gray-600">• Email kept private</li>
+                      <li className="text-sm text-gray-600">• Request removal anytime</li>
+                    </ul>
                   </div>
                 </CardContent>
               </Card>
-            ))}
-          </div>
-        </div>
-
-        {/* Share Your Story Section */}
-        <div className="max-w-6xl mx-auto grid lg:grid-cols-4 gap-8">
-          {/* Main Story Form - Takes up 3 columns */}
-          <div className="lg:col-span-3">
-            <Card className="shadow-lg">
-              <CardHeader className="pb-8">
-                <CardTitle className="text-2xl font-bold text-center">Share Your Story</CardTitle>
-              </CardHeader>
-              <CardContent className="text-center">
-                <Button asChild size="lg" className="bg-rose-600 hover:bg-rose-700 px-8 py-4 text-lg">
-                  <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdTa5eURR9WHDWTns09TvwMGScuI6oZr34zcUA2Uwt6BZlIAg/viewform?usp=header" target="_blank" rel="noopener noreferrer">
-                    Submit your story here!
-                    <ExternalLink className="ml-2 h-5 w-5" />
-                  </Link>
-                </Button>
-              </CardContent>
-            </Card>
-          </div>
-
-          {/* Sidebar - Takes up 1 column */}
-          <div className="lg:col-span-1 space-y-6">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-lg">Rewrite the narrative by sharing your experience!</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-3">
-                <p className="text-sm text-gray-600">• Help others feel less alone</p>
-                <p className="text-sm text-gray-600">• Share valuable insights</p>
-                <p className="text-sm text-gray-600">• Build community support</p>
-                <p className="text-sm text-gray-600">• Raise PCOS awareness</p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-lg">Privacy & Safety</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-3">
-                <p className="text-sm text-gray-600">• Anonymous sharing available</p>
-                <p className="text-sm text-gray-600">• Stories reviewed before publication</p>
-                <p className="text-sm text-gray-600">• Email kept private</p>
-                <p className="text-sm text-gray-600">• Request removal anytime</p>
-              </CardContent>
-            </Card>
+            </div>
           </div>
         </div>
       </div>
