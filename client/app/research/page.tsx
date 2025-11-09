@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 
@@ -9,8 +10,31 @@ export default function ResearchPage() {
           <h1 className="text-4xl font-bold text-gray-900 mb-4">PCOS Research Hub</h1>
         </div>
 
-        {/* Explore Topics */}
+        {/* Member Articles Section */}
         <section className="mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">Member Articles</h2>
+          <div className="space-y-4">
+            <Link 
+              href="/research/articles/long_term_health_effects"
+              className="block p-4 border border-gray-200 rounded-lg hover:bg-gray-50 hover:border-gray-300 transition-colors"
+            >
+              <h3 className="text-lg font-semibold text-gray-900 mb-1">
+                Long term health affects - by Noelle F Di Perna
+              </h3>
+            </Link>
+            <Link 
+              href="/research/articles/role_of_hormones"
+              className="block p-4 border border-gray-200 rounded-lg hover:bg-gray-50 hover:border-gray-300 transition-colors"
+            >
+              <h3 className="text-lg font-semibold text-gray-900 mb-1">
+                The role of Hormones in Polycystic ovarian syndrome - by Sofia Jacome
+              </h3>
+            </Link>
+          </div>
+        </section>
+
+        {/* Explore Topics */}
+        {/* <section className="mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Explore topics related to PCOS</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card className="shadow-lg hover:shadow-xl transition-shadow cursor-pointer">
@@ -41,7 +65,7 @@ export default function ResearchPage() {
               </CardContent>
             </Card>
           </div>
-        </section>
+        </section> */}
 
         {/* FAQ */}
         <section className="mb-12">
