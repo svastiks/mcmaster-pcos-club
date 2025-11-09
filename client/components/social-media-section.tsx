@@ -24,7 +24,7 @@ export function SocialMediaSection() {
                 Follow us for PCOS-related lifestyle, research, and upcoming events.
               </p>
 
-              {/* Instagram Feed Placeholder - You'll need to replace this with actual Instagram integration */}
+              {/* Instagram Feed */}
               <div className="grid grid-cols-3 gap-2">
                 {[1, 2, 3, 4, 5, 6].map((index) => (
                   <div
@@ -32,7 +32,7 @@ export function SocialMediaSection() {
                     className="aspect-square bg-gradient-to-br from-pink-100 to-rose-100 rounded-lg flex items-center justify-center"
                   >
                     <img
-                      src={`/placeholder.svg?height=120&width=120&text=Post ${index}`}
+                      src={`/instagram_feed_${index}.jpeg?height=120&width=120&text=Post`}
                       alt={`Instagram post ${index}`}
                       className="w-full h-full object-cover rounded-lg"
                     />
