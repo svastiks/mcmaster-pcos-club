@@ -3,6 +3,7 @@
 import type React from "react"
 
 import { useState } from "react"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -15,6 +16,22 @@ import { useToast } from "@/hooks/use-toast"
 export default function AboutPage() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const { toast } = useToast()
+
+  const teamMembers = [
+    { name: "San Dyapa", role: "Co-Founder", image: "/team/san_dyapa.jpeg" },
+    { name: "Ojaswinee Sharma", role: "Co-Founder", image: "/team/ojaswinee_sharma.jpeg" },
+    { name: "Yesha Patel", role: "Website Administrator", image: "/team/yesha_patel.JPG" },
+    { name: "Noelle F Di Perna", role: "Director of Research", image: "/team/noelle_f_di_perna.jpeg" },
+    { name: "Sofia Jacome", role: "Director of Research", image: "/team/sofia_jacome.jpeg" },
+    { name: "Amritha Rameshkanna", role: "Vice President of Media and Education", image: "/team/amritha_rameshkanna.jpeg" },
+    { name: "Ann Maria Philip", role: "Director of Media", image: "/team/ann_maria_philip.jpeg" },
+    { name: "Jessica Palfy", role: "Director of Design/Media", image: "/team/jessica_palfy.jpeg" },
+    { name: "Sukhmani Kalsi", role: "Director of Education", image: "/team/sukhmani_kalsi.JPG" },
+    { name: "Sally Smith", role: "Vice President of Events", image: "/team/sally_smith.JPG" },
+    { name: "Dilrose Grewal", role: "Director of Finance", image: "/team/dilrose_grewal.jpeg" },
+    { name: "Rayna Rakib", role: "Director of Events", image: "/team/rayna_rakib.jpeg" },
+    { name: "Adelia Parvinchi", role: "Director of Events", image: "/team/adelia_parvinchi.jpeg" },
+  ]
 
   const handleFeedbackSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -82,19 +99,27 @@ export default function AboutPage() {
           </Card>
         </section>
 
-        {/* Team Picture */}
+        {/* Team Members */}
         <section className="mb-12">
-          <Card>
-            <CardHeader>
-              <CardTitle className="text-2xl">Our Team</CardTitle>
-            </CardHeader>
-            <CardContent>
-              {/* TODO: Insert team picture component here once the image is available. */}
-              <div className="bg-gray-100 rounded-lg p-12 text-center">
-                <p className="text-gray-500 text-lg">Team photo coming soon...</p>
-              </div>
-            </CardContent>
-          </Card>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Our Team</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            {teamMembers.map((member, index) => (
+              <Card key={index} className="text-center overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                <CardContent className="p-4">
+                  <div className="relative w-full aspect-square mb-4 rounded-lg overflow-hidden">
+                    <Image
+                      src={member.image}
+                      alt={member.name}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                  <h3 className="font-semibold text-gray-900 mb-1">{member.name}</h3>
+                  <p className="text-sm text-gray-600">{member.role}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
         </section>
 
         {/* Quotes
