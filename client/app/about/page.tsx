@@ -31,6 +31,7 @@ export default function AboutPage() {
     { name: "Dilrose Grewal", role: "Director of Finance", image: "/team/dilrose_grewal.jpeg" },
     { name: "Rayna Rakib", role: "Director of Events", image: "/team/rayna_rakib.jpeg" },
     { name: "Adelia Parvinchi", role: "Director of Events", image: "/team/adelia_parvinchi.jpeg" },
+    { name: "Rachel Gold", role: "Club Photographer", image: "/team/rachel_gold.png" },
   ]
 
   const handleFeedbackSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
