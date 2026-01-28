@@ -50,6 +50,29 @@ export default function ResearchPage() {
                 Sofia R.M. Jacome
               </h3>
             </Link>
+
+            <Link
+              href="/research/articles/pharmacological_management"
+              aria-label="Read Pharmacological Management of Symptoms Associated with PCOS by Noelle F. Di Perna"
+              className="block p-4 border border-gray-200 rounded-lg hover:bg-gray-50 hover:border-gray-300 transition-colors"
+            >
+              <h3 className="text-lg font-semibold text-gray-900 mb-1">
+                Pharmacological Management of Symptoms Associated with
+                Polycystic Ovarian Syndrome — by Noelle F. Di Perna
+              </h3>
+            </Link>
+
+            <Link
+              href="/research/articles/cyclic_progesterone_spironolactone"
+              aria-label="Read Breaking Down Current Research: Cyclic Progesterone and Spironolactone Treatment for PCOS by Sofia R.M. Jacome"
+              className="block p-4 border border-gray-200 rounded-lg hover:bg-gray-50 hover:border-gray-300 transition-colors"
+            >
+              <h3 className="text-lg font-semibold text-gray-900 mb-1">
+                Breaking Down Current Research: Cyclic Progesterone and
+                Spironolactone Treatment for Polycystic Ovarian Syndrome — A
+                Feasibility Study by Kaitlin Nelson (MSc) — by Sofia R.M. Jacome
+              </h3>
+            </Link>
           </div>
         </section>
 
