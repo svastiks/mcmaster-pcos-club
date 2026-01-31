@@ -1,42 +1,12 @@
 [
   {
     "id": 1,
-    "title": "PCOS Awareness Workshop",
-    "date": "2024-02-15",
-    "time": "2:00 PM - 4:00 PM",
-    "location": "McMaster University, Student Centre",
-    "description": "Join us for an educational workshop about PCOS symptoms, management strategies, and the latest research findings.",
-    "type": "workshop",
-    "registration": "Required"
-  },
-  {
-    "id": 2,
-    "title": "Spring Fundraiser",
-    "date": "2024-03-20",
-    "time": "6:00 PM - 9:00 PM",
-    "location": "Hamilton Convention Centre",
-    "description": "Our annual fundraising event to support PCOS research and community programs. Dinner, silent auction, and guest speakers.",
+    "title": "Bake Sale!",
+    "date": "2026-02-27",
+    "time": "8:30 AM - 12:30 PM",
+    "location": "McMaster University, MUSC (in front of the Starbucks)",
+    "description": "Pay what you can! In collaboration with McMaster breast cancer society.",
     "type": "fundraiser",
-    "registration": "Required"
-  },
-  {
-    "id": 3,
-    "title": "Support Group Meeting",
-    "date": "2024-02-28",
-    "time": "7:00 PM - 8:30 PM",
-    "location": "Virtual (Zoom)",
-    "description": "Monthly support group for individuals with PCOS. Share experiences, ask questions, and connect with others.",
-    "type": "support",
     "registration": "Optional"
-  },
-  {
-    "id": 4,
-    "title": "Research Symposium",
-    "date": "2024-04-10",
-    "time": "9:00 AM - 5:00 PM",
-    "location": "McMaster Health Sciences Centre",
-    "description": "A day-long symposium featuring presentations from leading PCOS researchers and healthcare professionals.",
-    "type": "education",
-    "registration": "Required"
   }
-] 
+]

@@ -54,9 +54,9 @@ export default function GetInvolvedPage() {
   useEffect(() => {
     const fetchEvents = async () => {
       try {
-        // const response = await fetch('/events.json')
-        // const data = await response.json()
-        // setEvents(data)
+        const response = await fetch('/events.json')
+        const data = await response.json()
+        setEvents(data)
       } catch (error) {
         console.error('Error loading events:', error)
       } finally {
