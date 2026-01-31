@@ -27,7 +27,6 @@ export default function AboutPage() {
     { name: "Ann Maria Philip", role: "Director of Media", image: "/team/ann_maria_philip.jpeg" },
     { name: "Jessica Palfy", role: "Director of Design/Media", image: "/team/jessica_palfy.jpeg" },
     { name: "Sukhmani Kalsi", role: "Director of Education", image: "/team/sukhmani_kalsi.JPG" },
-    { name: "Sally Smith", role: "Vice President of Events", image: "/team/sally_smith.JPG" },
     { name: "Dilrose Grewal", role: "Director of Finance", image: "/team/dilrose_grewal.jpeg" },
     { name: "Rayna Rakib", role: "Director of Events", image: "/team/rayna_rakib.jpeg" },
     { name: "Adelia Parvinchi", role: "Director of Events", image: "/team/adelia_parvinchi.jpeg" },
