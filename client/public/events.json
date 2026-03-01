@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "title": "Bake Sale!",
-    "date": "2026-02-27",
-    "time": "8:30 AM - 12:30 PM",
-    "location": "McMaster University, MUSC (in front of the Starbucks)",
-    "description": "Pay what you can! In collaboration with McMaster Breast Cancer Society.",
+    "title": "Women’s Day Coffeehouse",
+    "date": "2026-03-05",
+    "time": "6:30 PM - 9:30 PM",
+    "location": "Bridges Café, McMaster University",
+    "description": "In Collaboration with McMaster HEAS",
     "type": "fundraiser",
     "registration": "Optional"
   }
