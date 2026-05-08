@@ -69,6 +69,22 @@ That moment broke my heart—and it still does. Every time my period arrives, I'
   There's no cure. But there is resilience. And I'm still here, figuring it out, one quiet adjustment at a time.`,
       isAnonymous: true,
     },
+    {
+      id: 3,
+      name: "Anonymous",
+      preview:
+        "Since I first gained my period, they had been irregular. I was told this was normal for a teenager...",
+      fullStory: `Since I first gained my period, they had been irregular. I was told this was normal for a teenager and that they would eventually become consistent. However, over the years I started developing symptoms of PCOS and blood tests led to a referral to a gynaecologist at 17.
+
+Despite my tests results showing unbalanced hormone levels, the male doctor I was assigned told me that I simply did not have PCOS and that I "was not fat enough." He refused to book me in to get an ultrasound and this delayed my diagnosis for a year. After a year of battles back and forth with the hospital with feelings of uncertainty, I was finally diagnosed with "lean PCOS" and thought that this was where the support began.
+
+However, the only advice I received was to come back when I would like to get pregnant and in the mean time start a contraceptive pill to attempt to regulate my period and hormones. As for my acne and bloating, I was told to lose weight and maintain a healthy diet. I left feeling more confused and deflated than when I went in.
+
+I was not aware that this was a common experience within women's healthcare, and finding similar stories online helped ease that anxiety. There was support within other women's battles for diagnosis and struggles around the stigma associated with PCOS. I am more confident in managing it as a result of reliable online medical explanations and advice around the condition, as well as emotional support from other women.
+
+This should not be the standard of care. But know that it can become manageable and that you are not alone if you have feelings of apprehension or overwhelm. Meet up with the people around you and lean on them.`,
+      isAnonymous: true,
+    },
   ]
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
