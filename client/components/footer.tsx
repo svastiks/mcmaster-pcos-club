@@ -46,7 +46,7 @@ export function Footer() {
             <h4 className="font-medium text-gray-900 mb-6">Connect with us:</h4>
             <div className="space-y-3">
               <p className="text-gray-600 font-light">
-                Email: macpcossociety@gmail.com
+                Email: pcos@mcmaster.ca
                 <br />
                 Instagram: @macpcos
                 <br />
