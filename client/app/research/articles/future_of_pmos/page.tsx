@@ -154,14 +154,14 @@ export default function FutureOfPmosPage() {
                 </li>
                 <li>
                   Hosseinzadeh P. PMOS and Infertility. John Hopkin&apos;s Medicine. 2026. Available from:{" "}
-                  <a href="https://www.hopkinsmedicine.org/health/expert-qa/__HOPKINS_PMOS__" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
-                    https://www.hopkinsmedicine.org/health/expert-qa/__HOPKINS_PMOS__
+                  <a href="https://www.hopkinsmedicine.org/health/expert-qa/PCOS-and-infertility" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                    https://www.hopkinsmedicine.org/health/expert-qa/PCOS-and-infertility
                   </a>
                 </li>
                 <li>
                   Treatments for Infertility Resulting from PMOS. 2024. Available from:{" "}
-                  <a href="https://www.nichd.nih.gov/health/__NICHD_PMOS__conditioninfo/treatments/infertility" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
-                    https://www.nichd.nih.gov/health/__NICHD_PMOS__conditioninfo/treatments/infertility
+                  <a href="https://www.nichd.nih.gov/health/topics/PCOS/conditioninfo/treatments/infertility" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                    https://www.nichd.nih.gov/health/topics/PCOS/conditioninfo/treatments/infertility
                   </a>
                 </li>
                 <li>

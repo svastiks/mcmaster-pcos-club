@@ -46,9 +46,9 @@ export function Footer() {
             <h4 className="font-medium text-gray-900 mb-6">Connect with us:</h4>
             <div className="space-y-3">
               <p className="text-gray-600 font-light">
-                Email: __EMAIL_PMOS__
+                Email: pcos@mcmaster.ca
                 <br />
-                Instagram: @__MACPMOS__
+                Instagram: @macpcos
                 <br />
                 LinkedIn: The McMaster PMOS Society
                 <br />

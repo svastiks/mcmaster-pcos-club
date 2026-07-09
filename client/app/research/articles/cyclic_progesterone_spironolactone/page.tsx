@@ -284,12 +284,12 @@ export default function CyclicProgesteroneSpironolactonePage() {
                   spironolactone help in treating PMOS? [Internet]. HealthMatch.
                   2022. Available from:{" "}
                   <a
-                    href="https://__HEALTHMATCH_PMOS__/spironolactone-for-pcos"
+                    href="https://healthmatch.io/pcos/spironolactone-for-pcos"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:underline"
                   >
-                    https://__HEALTHMATCH_PMOS__/spironolactone-for-pcos
+                    https://healthmatch.io/pcos/spironolactone-for-pcos
                   </a>
                 </li>
                 <li>

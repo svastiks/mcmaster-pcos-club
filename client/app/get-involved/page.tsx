@@ -88,7 +88,7 @@ export default function GetInvolvedPage() {
                 Every single contribution makes a difference in supporting individuals with PMOS.
               </p>
               <p className="text-gray-600 mb-8 text-base">
-                Funds gathered by McMaster PMOS Society proceed towards __PMOS_TOGETHER_NAME__ at the University of Alberta. Your donations support polyendocrine metabolic ovarian (PMOS) research and innovation that seeks truth and solves problems.
+                Funds gathered by McMaster PMOS Society proceed towards PCOS Together at the University of Alberta. Your donations support polyendocrine metabolic ovarian (PMOS) research and innovation that seeks truth and solves problems.
               </p>
               <Button asChild size="lg" className="bg-rose-600 hover:bg-rose-700 px-8 py-4 text-lg">
                 <Link href="https://gofundme.com/your-campaign" target="_blank" rel="noopener noreferrer">

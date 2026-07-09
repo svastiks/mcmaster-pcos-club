@@ -13,9 +13,9 @@ export default function ResourcesPage() {
       availability: "Online Resources",
     },
     {
-      name: "__PMOS_TOGETHER_NAME__",
+      name: "PCOS Together",
       description: "For updates on studies and publications research regarding PMOS",
-      website: "https://__PMOS_TOGETHER_URL__/",
+      website: "https://pcos.together.ualberta.ca/",
       type: "PMOS Support",
       availability: "Online Resources",
     },
@@ -155,7 +155,7 @@ export default function ResourcesPage() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-700">
-                Email: <a href="mailto:__EMAIL_PMOS__" className="text-rose-600 hover:text-rose-700">__EMAIL_PMOS__</a>
+                Email: <a href="mailto:pcos@mcmaster.ca" className="text-rose-600 hover:text-rose-700">pcos@mcmaster.ca</a>
               </p>
             </CardContent>
           </Card>
