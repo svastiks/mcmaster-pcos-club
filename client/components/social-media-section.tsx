@@ -44,7 +44,7 @@ export function SocialMediaSection() {
                 asChild
                 className="w-full bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-600 hover:to-rose-600"
               >
-                <Link href="https://www.instagram.com/macpcos/" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.instagram.com/macpmos/" target="_blank" rel="noopener noreferrer">
                   Follow Us on Instagram
                   <ExternalLink className="ml-2 h-4 w-4" />
                 </Link>

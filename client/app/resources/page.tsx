@@ -155,7 +155,7 @@ export default function ResourcesPage() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-700">
-                Email: <a href="mailto:pcos@mcmaster.ca" className="text-rose-600 hover:text-rose-700">pcos@mcmaster.ca</a>
+                Email: <a href="mailto:pmos@mcmaster.ca" className="text-rose-600 hover:text-rose-700">pmos@mcmaster.ca</a>
               </p>
             </CardContent>
           </Card>
