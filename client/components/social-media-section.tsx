@@ -21,7 +21,7 @@ export function SocialMediaSection() {
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-gray-600 text-center">
-                Follow us for PCOS-related lifestyle, research, and upcoming events.
+                Follow us for PMOS-related lifestyle, research, and upcoming events.
               </p>
 
               {/* Instagram Feed */}
@@ -44,7 +44,7 @@ export function SocialMediaSection() {
                 asChild
                 className="w-full bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-600 hover:to-rose-600"
               >
-                <Link href="https://www.instagram.com/macpcos/" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.instagram.com/__MACPMOS__/" target="_blank" rel="noopener noreferrer">
                   Follow Us on Instagram
                   <ExternalLink className="ml-2 h-4 w-4" />
                 </Link>
@@ -64,9 +64,9 @@ export function SocialMediaSection() {
               </p>
 
               <div className="bg-blue-50 rounded-lg p-6 text-center">
-                <h4 className="font-semibold text-gray-900 mb-2">McMaster PCOS Society</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">McMaster PMOS Society</h4>
                 <p className="text-sm text-gray-600 mb-4">
-                  Empowering the PCOS community through education, support, and advocacy at McMaster University.
+                  Empowering the PMOS community through education, support, and advocacy at McMaster University.
                 </p>
                 <div className="text-sm text-blue-600 font-medium">
                   🎓 Student Organization
@@ -76,7 +76,7 @@ export function SocialMediaSection() {
               </div>
 
               <Button asChild className="w-full bg-blue-600 hover:bg-blue-700">
-                <Link href="https://www.linkedin.com/company/pcos-society/" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.linkedin.com/__LINKEDIN_PMOS__/" target="_blank" rel="noopener noreferrer">
                   Connect on LinkedIn
                   <ExternalLink className="ml-2 h-4 w-4" />
                 </Link>

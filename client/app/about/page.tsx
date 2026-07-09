@@ -80,7 +80,7 @@ export default function AboutPage() {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">About Us</h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Learn about our mission, values, and the team behind the McMaster PCOS Society at McMaster University.
+            Learn about our mission, values, and the team behind the McMaster PMOS Society at McMaster University.
           </p>
         </div>
 
@@ -93,7 +93,7 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-700 leading-relaxed">
-                At the McMaster PCOS Society, we aim to build a safe space for those navigating PCOS through support, awareness and advocacy. Whether you're seeking answers or simply a community that gets it, we are here to rewrite the stigmatized narrative around PCOS together!
+                At the McMaster PMOS Society, we aim to build a safe space for those navigating PMOS through support, awareness and advocacy. Whether you're seeking answers or simply a community that gets it, we are here to rewrite the stigmatized narrative around PMOS together!
               </p>
             </CardContent>
           </Card>
@@ -129,7 +129,7 @@ export default function AboutPage() {
             <Card className="shadow-lg">
               <CardContent className="p-8 text-center">
                 <blockquote className="text-lg text-gray-700 italic mb-4">
-                  "Our mission is to create a space where no one feels alone in their PCOS journey. Every story shared, every connection made, brings us closer to breaking the stigma."
+                  "Our mission is to create a space where no one feels alone in their PMOS journey. Every story shared, every connection made, brings us closer to breaking the stigma."
                 </blockquote>
                 <cite className="text-gray-600 font-medium">— Sarah Chen, Co-founder</cite>
               </CardContent>
@@ -156,7 +156,7 @@ export default function AboutPage() {
             <Card className="shadow-lg">
               <CardContent className="p-8 text-center">
                 <blockquote className="text-lg text-gray-700 italic mb-4">
-                  "Advocacy isn't just about raising awareness—it's about creating real change in healthcare and policy for the PCOS community."
+                  "Advocacy isn't just about raising awareness—it's about creating real change in healthcare and policy for the PMOS community."
                 </blockquote>
                 <cite className="text-gray-600 font-medium">— Alex Thompson, Advocacy Director</cite>
               </CardContent>
@@ -211,7 +211,7 @@ export default function AboutPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 text-sm">
-                  Fighting for better healthcare, awareness, and support for the PCOS community.
+                  Fighting for better healthcare, awareness, and support for the PMOS community.
                 </p>
               </CardContent>
             </Card>

@@ -16,7 +16,7 @@ export default function CyclicProgesteroneSpironolactonePage() {
         <article className="bg-white rounded-lg shadow-lg p-8 md:p-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-2 text-center">
             Breaking Down Current Research: Cyclic Progesterone and
-            Spironolactone Treatment for Polycystic Ovary Syndrome - A
+            Spironolactone Treatment for Polyendocrine Metabolic Ovarian Syndrome - A
             Feasibility Study by Kaitlin Nelson (MSc)
           </h1>
           <p className="text-center text-gray-600 mb-10 text-lg">
@@ -31,15 +31,15 @@ export default function CyclicProgesteroneSpironolactonePage() {
               <p className="text-gray-700 leading-relaxed mb-4">
                 In a perfect world, every condition and disease would have a
                 simple, effective, one-pill solution. However, underfunding in
-                female reproductive health issues like polycystic ovary syndrome
-                (PCOS) is common, despite the prevalence, economic burden,
+                female reproductive health issues like polyendocrine metabolic ovarian syndrome
+                (PMOS) is common, despite the prevalence, economic burden,
                 comorbidities and negative impact on quality of life.
                 <sup>1</sup> This underfunding prevents us from determining the
                 best and most effective way of treating and managing conditions
-                like PCOS.
+                like PMOS.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Currently, most treatments aimed towards the management of PCOS
+                Currently, most treatments aimed towards the management of PMOS
                 are not treating the root cause of the condition itself, instead
                 working to manage the symptoms associated with the condition.
                 Common treatments include a combination of birth control pills
@@ -47,7 +47,7 @@ export default function CyclicProgesteroneSpironolactonePage() {
                 improve things like cholesterol levels, and metformin to improve
                 the body&apos;s inability to respond to insulin.<sup>2</sup> While
                 physical symptoms are the focus of treatment, for many living
-                with PCOS, the condition also greatly affects their mental
+                with PMOS, the condition also greatly affects their mental
                 health.<sup>3</sup> In addition to physical symptoms, this
                 clinical trial also examines a treatment&apos;s effect on an
                 individual&apos;s mental health.<sup>2</sup>
@@ -59,7 +59,7 @@ export default function CyclicProgesteroneSpironolactonePage() {
                 medication that blocks male hormones like testosterone
                 <sup>2,4</sup>. As of January 2025, very few studies, including
                 this one, have examined the use of cyclic progesterone treatment
-                for the management of PCOS.
+                for the management of PMOS.
               </p>
             </section>
 
@@ -68,7 +68,7 @@ export default function CyclicProgesteroneSpironolactonePage() {
                 Cyclic Progesterone Treatment
               </h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                PCOS operates in a &quot;feedback loop,&quot; a situation that can be
+                PMOS operates in a &quot;feedback loop,&quot; a situation that can be
                 described as having a certain hormone that impacts other
                 hormones in a chain reaction, where the end of the chain further
                 impacts the first hormone. This feedback continues in a cycle,
@@ -76,25 +76,25 @@ export default function CyclicProgesteroneSpironolactonePage() {
                 symptoms.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                In the PCOS feedback loop, a hormone called
+                In the PMOS feedback loop, a hormone called
                 Gonadotropin-releasing hormone (GnRH) is released at an
                 irregularly high frequency, which causes Luteinizing hormone
                 (LH) to also be released at a high frequency.<sup>2</sup>
                 Normally, LH works to develop the egg that will eventually be
                 released during ovulation.<sup>5</sup> While a spike in LH is
                 normal just before an egg is released, the high frequency seen
-                in PCOS leads to hormonal disruptions, including high
+                in PMOS leads to hormonal disruptions, including high
                 testosterone levels, high estrogen levels, and low
                 Follicle-stimulating hormone (FSH), leading to irregular
                 menstrual cycles.<sup>2</sup> Additionally, the high
                 testosterone levels lead to symptoms we commonly associate with
-                PCOS: alopecia, acne, and facial/body hair growth, as well as
+                PMOS: alopecia, acne, and facial/body hair growth, as well as
                 insulin resistance, reduced fertility, and increased cancer
                 risks.<sup>2</sup> The dysregulation of LH also impacts
                 progesterone levels, a hormone necessary for preparing the
                 uterus for pregnancy and regulation of the menstrual cycle by
                 lowering LH levels in preparation for having a period.
-                <sup>6</sup> Since progesterone levels are too low in PCOS, the
+                <sup>6</sup> Since progesterone levels are too low in PMOS, the
                 release of GnRH in the brain is not slowed down, leading us to
                 the beginning of the cycle once again.<sup>7</sup>
               </p>
@@ -102,11 +102,11 @@ export default function CyclicProgesteroneSpironolactonePage() {
               <figure className="my-6">
                 <img
                   src="/articles/cyclic_progesterone_spironolactone_image_1.jpg"
-                  alt="Figure 1. The vicious cycle of PCOS."
+                  alt="Figure 1. The vicious cycle of PMOS."
                   className="w-full h-auto"
                 />
                 <figcaption className="text-sm text-gray-600 mt-2">
-                  Figure 1. The vicious cycle of PCOS. Adapted from Nelson.
+                  Figure 1. The vicious cycle of PMOS. Adapted from Nelson.
                   <sup>2</sup> Rapid pulses of Gonadotropin-releasing hormone
                   (GnRH) result in elevated Luteinizing hormone (LH),
                   contributing to a lack of ovulation and polycystic ovaries.
@@ -142,11 +142,11 @@ export default function CyclicProgesteroneSpironolactonePage() {
               <figure className="my-6">
                 <img
                   src="/articles/cyclic_progesterone_spironolactone_image_2.jpg"
-                  alt="Figure 2. How cyclic progesterone breaks the vicious PCOS cycle."
+                  alt="Figure 2. How cyclic progesterone breaks the vicious PMOS cycle."
                   className="w-full h-auto"
                 />
                 <figcaption className="text-sm text-gray-600 mt-2">
-                  Figure 2. How cyclic Progesterone breaks the vicious PCOS
+                  Figure 2. How cyclic Progesterone breaks the vicious PMOS
                   cycle. Adapted from Nelson.<sup>2</sup> Restoring progesterone
                   levels slows the release of Gonadotropin-releasing hormone
                   (GnRH), returning luteinizing hormone (LH) release to an
@@ -164,12 +164,12 @@ export default function CyclicProgesteroneSpironolactonePage() {
               <p className="text-gray-700 leading-relaxed mb-4">
                 The study aimed to evaluate the effectiveness of 6 months of
                 cyclic progesterone therapy in combination with spironolactone
-                in improving quality of life for individuals living with PCOS.
+                in improving quality of life for individuals living with PMOS.
                 <sup>2</sup> The study followed participants&apos; quality of
                 life, which included 5 domains: emotions, body hair, weight,
                 infertility, and menstruation.<sup>2</sup> Additionally, hormone
                 levels, acne, and sleep quality were assessed.<sup>2</sup> This
-                study followed a cohort of 26 individuals diagnosed with PCOS
+                study followed a cohort of 26 individuals diagnosed with PMOS
                 for 6 months.<sup>2</sup>
               </p>
             </section>
@@ -179,12 +179,12 @@ export default function CyclicProgesteroneSpironolactonePage() {
               <p className="text-gray-700 leading-relaxed mb-4">
                 The study found that this treatment enhanced overall quality of
                 life in all 5 domains (emotions, body hair, weight, infertility,
-                and menstruation) and alleviated PCOS symptoms.<sup>2</sup>
+                and menstruation) and alleviated PMOS symptoms.<sup>2</sup>
                 Improvements were found in sleep quality and acne severity.
                 <sup>2</sup> Participant&apos;s testosterone and LH levels showed
                 a statistically insignificant decrease; however, the average
                 testosterone levels decreased to a range that is expected in
-                individuals without PCOS, suggesting that this treatment was
+                individuals without PMOS, suggesting that this treatment was
                 able to break the feedback loop that produced symptoms of high
                 androgens.<sup>2</sup> Additionally, the participants reported
                 that they preferred this combined treatment instead of oral
@@ -215,20 +215,20 @@ export default function CyclicProgesteroneSpironolactonePage() {
               </h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 This study was only the second to explore the use of cyclic
-                progesterone therapy for treating PCOS.<sup>2</sup> Studies
+                progesterone therapy for treating PMOS.<sup>2</sup> Studies
                 involving combined oral contraceptives found that birth control
                 was unable to break the feedback loop the same way cyclic
                 progesterone is.<sup>2</sup> This study demonstrates a need for
-                exploration into better, more effective treatments for PCOS,
+                exploration into better, more effective treatments for PMOS,
                 specifically treatments that are able to break the chain of
                 dysfunction and fix the underlying issues, instead of treating
                 individual symptoms. Continuing research into this treatment
                 and transforming it into a personalized therapy with specific
                 doses and cycles for each individual could also allow it to be
-                a highly effective, tailored treatment for many with PCOS. With
+                a highly effective, tailored treatment for many with PMOS. With
                 so few treatments currently available, it is essential for
                 researchers like Kaitlin Nelson to seek out new, improved
-                therapies to enhance health care for managing and treating PCOS.
+                therapies to enhance health care for managing and treating PMOS.
               </p>
             </section>
 
@@ -239,8 +239,8 @@ export default function CyclicProgesteroneSpironolactonePage() {
               <ol className="list-decimal list-inside space-y-3 text-gray-700">
                 <li>
                   Brakta S, Lizneva D, Mykhalchenko K, Imam A, Walker W, Diamond
-                  MP, et al. Perspectives on polycystic ovary syndrome: Is
-                  polycystic ovary syndrome research underfunded? The Journal of
+                  MP, et al. Perspectives on polyendocrine metabolic ovarian syndrome: Is
+                  polyendocrine metabolic ovarian syndrome research underfunded? The Journal of
                   Clinical Endocrinology &amp; Metabolism [Internet]. 2017 Sep
                   19;102(12):4421-7. Available from:{" "}
                   <a
@@ -268,7 +268,7 @@ export default function CyclicProgesteroneSpironolactonePage() {
                 </li>
                 <li>
                   Dewani D, Karwade P, Mahajan KS. The Invisible Struggle: The
-                  Psychosocial aspects of Polycystic Ovary Syndrome. Cureus
+                  Psychosocial aspects of Polyendocrine Metabolic Ovarian Syndrome. Cureus
                   [Internet]. 2023 Dec 30;15(12):e51321. Available from:{" "}
                   <a
                     href="https://doi.org/10.7759/cureus.51321"
@@ -281,15 +281,15 @@ export default function CyclicProgesteroneSpironolactonePage() {
                 </li>
                 <li>
                   HealthMatch staff, HealthMatch Pty Ltd. How does
-                  spironolactone help in treating PCOS? [Internet]. HealthMatch.
+                  spironolactone help in treating PMOS? [Internet]. HealthMatch.
                   2022. Available from:{" "}
                   <a
-                    href="https://healthmatch.io/pcos/spironolactone-for-pcos"
+                    href="https://__HEALTHMATCH_PMOS__/spironolactone-for-pcos"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:underline"
                   >
-                    https://healthmatch.io/pcos/spironolactone-for-pcos
+                    https://__HEALTHMATCH_PMOS__/spironolactone-for-pcos
                   </a>
                 </li>
                 <li>

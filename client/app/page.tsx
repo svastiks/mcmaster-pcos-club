@@ -10,9 +10,9 @@ export default function HomePage() {
       <section className="relative py-24 overflow-hidden w-full" style={{backgroundColor: '#61000b'}}>
         <div className="container mx-auto px-0 sm:px-6 w-full max-w-full">
           <div className="text-center">
-            <h1 className="text-6xl md:text-8xl font-bold text-white mb-8 leading-tight" style={{fontFamily: 'Times New Roman, serif'}}>PCOS Society</h1>
+            <h1 className="text-6xl md:text-8xl font-bold text-white mb-8 leading-tight" style={{fontFamily: 'Times New Roman, serif'}}>PMOS Society</h1>
             <p className="text-xl text-white font-light max-w-2xl mx-auto">
-            Supporting and empowering individuals with Polycystic Ovarian Syndrome through awareness and advocacy.
+            Supporting and empowering individuals with Polyendocrine Metabolic Ovarian Syndrome through awareness and advocacy.
             </p>
           </div>
         </div>
@@ -30,7 +30,7 @@ export default function HomePage() {
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-sm font-medium text-gray-600 mb-4 tracking-wider uppercase">Who We Are</p>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8 leading-tight">
-              We are here to guide you towards the first step of understanding PCOS.
+              We are here to guide you towards the first step of understanding PMOS.
             </h2>
             <Button
               asChild

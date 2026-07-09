@@ -25,7 +25,7 @@ const stories: Story[] = [
       "In 2023, at just 17 years old, I stopped taking birth control for the first time in three years...",
     fullStory: `In 2023, at just 17 years old, I stopped taking birth control for the first time in three years. Almost immediately, I began experiencing troubling symptoms: cystic acne, dark hair growth on my chin, and intense mood swings. I tried to speak with a doctor, but due to the lack of access in my area—no family doctor and even fewer specialists—I struggled to get proper medical support.
 
-To this day, I still haven't been able to see a gynecologist. Through virtual consultations with nurse practitioners and general practitioners, I received a tentative diagnosis of PCOS. I was told: "There's not much that can be done anyway. Just go back on birth control, and if you have fertility issues in 5–10 years—which you most likely will—see a specialist then for a proper diagnosis and treatment."
+To this day, I still haven't been able to see a gynecologist. Through virtual consultations with nurse practitioners and general practitioners, I received a tentative diagnosis of PMOS. I was told: "There's not much that can be done anyway. Just go back on birth control, and if you have fertility issues in 5–10 years—which you most likely will—see a specialist then for a proper diagnosis and treatment."
 
 All my life, I've dreamed of becoming a mother. And in a single phone call, I was told that would likely be difficult—and that no one could really do anything about it. I was advised to return to the same medication that may have contributed to these issues in the first place, and to simply move on.
 
@@ -37,22 +37,22 @@ That moment broke my heart—and it still does. Every time my period arrives, I'
     name: "Anonymous",
     age: 20,
     preview:
-      "I was diagnosed with PCOS when I was sixteen, but the story really started before a doctor ever said the words out loud...",
-    fullStory: `I was diagnosed with PCOS when I was sixteen, but the story really started before a doctor ever said the words out loud.
+      "I was diagnosed with PMOS when I was sixteen, but the story really started before a doctor ever said the words out loud...",
+    fullStory: `I was diagnosed with PMOS when I was sixteen, but the story really started before a doctor ever said the words out loud.
 
-One of my close friends had PCOS, and through her, I became weirdly aware of the condition. I noticed her symptoms first. The acne, the irregular periods, the hair issues, the frustration. And then, slowly and uncomfortably, I started recognizing those same signs in myself. It was like holding up a mirror I didn’t ask for. I started connecting dots, quietly, almost nervously, and eventually did what a lot of teenage girls do when something feels off. I self-diagnosed before I ever stepped into a clinic.
+One of my close friends had PMOS, and through her, I became weirdly aware of the condition. I noticed her symptoms first. The acne, the irregular periods, the hair issues, the frustration. And then, slowly and uncomfortably, I started recognizing those same signs in myself. It was like holding up a mirror I didn’t ask for. I started connecting dots, quietly, almost nervously, and eventually did what a lot of teenage girls do when something feels off. I self-diagnosed before I ever stepped into a clinic.
 
-When I finally explained everything to my doctor, he ordered blood work and an ultrasound. That was when I learned about the Rotterdam criteria, the clinical checklist used to diagnose PCOS. A few tests later, it was official.
+When I finally explained everything to my doctor, he ordered blood work and an ultrasound. That was when I learned about the Rotterdam criteria, the clinical checklist used to diagnose PMOS. A few tests later, it was official.
 
-I cried. Not in a dramatic way. In a stunned, silent, this-isn't-fair kind of way. I had barely heard of PCOS before, and suddenly I was being told I had a chronic condition with no cure. Just “management.” Lifestyle changes. Symptom control. Trial and error. For a sixteen-year-old, that felt like being handed a lifelong assignment with no instructions.
+I cried. Not in a dramatic way. In a stunned, silent, this-isn't-fair kind of way. I had barely heard of PMOS before, and suddenly I was being told I had a chronic condition with no cure. Just “management.” Lifestyle changes. Symptom control. Trial and error. For a sixteen-year-old, that felt like being handed a lifelong assignment with no instructions.
 
 Like so many girls before me, the first solution offered was birth control. It felt automatic. I was put on it and stayed on it for a year or two, and honestly, it was awful. It helped regulate my period, sure, but mentally I was constantly on edge. I was terrified of deep vein thrombosis, especially during long study sessions where I’d sit for hours. I didn’t feel informed or supported. I just felt lost, like I was doing something because I was told to, not because it actually fit my body.
 
-Once I started researching PCOS on my own, everything shifted. I learned that almost everyone with PCOS is handed the same script: birth control first, questions later. I connected with others who felt just as dismissed and confused as I did. That shared experience was comforting, but also frustrating. Why did it feel like no one was talking about how deeply this condition affects you beyond the physical symptoms?
+Once I started researching PMOS on my own, everything shifted. I learned that almost everyone with PMOS is handed the same script: birth control first, questions later. I connected with others who felt just as dismissed and confused as I did. That shared experience was comforting, but also frustrating. Why did it feel like no one was talking about how deeply this condition affects you beyond the physical symptoms?
 
 When I eventually saw an endocrinologist, I was given four options. Metformin. Spironolactone. Birth control. Another medication. Plus lifestyle changes and a very restrictive diet that felt unsustainable. That was it. No discussion of mental health. No acknowledgment of how exhausting it is to feel like your body is constantly working against you.
 
-Birth control gave me regular periods, but only while I was on it. The moment I stopped, my cycle disappeared again. Right now, I'm on spironolactone, and it's helped my acne, which I'm grateful for. But PCOS isn't just acne or periods. It's anxiety that lingers in the background. It's hair falling out when you're too young to be worrying about that. It's excessive hair growth that makes you feel like your body is betraying you in opposite directions at once.
+Birth control gave me regular periods, but only while I was on it. The moment I stopped, my cycle disappeared again. Right now, I'm on spironolactone, and it's helped my acne, which I'm grateful for. But PMOS isn't just acne or periods. It's anxiety that lingers in the background. It's hair falling out when you're too young to be worrying about that. It's excessive hair growth that makes you feel like your body is betraying you in opposite directions at once.
 
 These things mess with your head. And no one really prepares you for that.
 
@@ -60,7 +60,7 @@ So I started making quiet changes. Not dramatic transformations, just consistent
 
 Sleep became non-negotiable. In 2025, despite being in a stressful pre-med program, I made a promise to myself to stop pulling all-nighters. I get six to seven hours of sleep a night, minimum. That alone felt like reclaiming some control.
 
-PCOS has ruined parts of my experience, and pretending otherwise would be a lie. But it has also forced me to listen to my body in a way I might never have learned otherwise. I've learned patience. I've learned self-advocacy. I've learned that managing PCOS isn't about perfection, it's about persistence.
+PMOS has ruined parts of my experience, and pretending otherwise would be a lie. But it has also forced me to listen to my body in a way I might never have learned otherwise. I've learned patience. I've learned self-advocacy. I've learned that managing PMOS isn't about perfection, it's about persistence.
 
 There's no cure. But there is resilience. And I'm still here, figuring it out, one quiet adjustment at a time.`,
     isAnonymous: true,
@@ -70,13 +70,13 @@ There's no cure. But there is resilience. And I'm still here, figuring it out, o
     name: "Anonymous",
     preview:
       "Since I first gained my period, they had been irregular. I was told this was normal for a teenager...",
-    fullStory: `Since I first gained my period, they had been irregular. I was told this was normal for a teenager and that they would eventually become consistent. However, over the years I started developing symptoms of PCOS and blood tests led to a referral to a gynaecologist at 17.
+    fullStory: `Since I first gained my period, they had been irregular. I was told this was normal for a teenager and that they would eventually become consistent. However, over the years I started developing symptoms of PMOS and blood tests led to a referral to a gynaecologist at 17.
 
-Despite my tests results showing unbalanced hormone levels, the male doctor I was assigned told me that I simply did not have PCOS and that I "was not fat enough." He refused to book me in to get an ultrasound and this delayed my diagnosis for a year. After a year of battles back and forth with the hospital with feelings of uncertainty, I was finally diagnosed with "lean PCOS" and thought that this was where the support began.
+Despite my tests results showing unbalanced hormone levels, the male doctor I was assigned told me that I simply did not have PMOS and that I "was not fat enough." He refused to book me in to get an ultrasound and this delayed my diagnosis for a year. After a year of battles back and forth with the hospital with feelings of uncertainty, I was finally diagnosed with "lean PMOS" and thought that this was where the support began.
 
 However, the only advice I received was to come back when I would like to get pregnant and in the mean time start a contraceptive pill to attempt to regulate my period and hormones. As for my acne and bloating, I was told to lose weight and maintain a healthy diet. I left feeling more confused and deflated than when I went in.
 
-I was not aware that this was a common experience within women's healthcare, and finding similar stories online helped ease that anxiety. There was support within other women's battles for diagnosis and struggles around the stigma associated with PCOS. I am more confident in managing it as a result of reliable online medical explanations and advice around the condition, as well as emotional support from other women.
+I was not aware that this was a common experience within women's healthcare, and finding similar stories online helped ease that anxiety. There was support within other women's battles for diagnosis and struggles around the stigma associated with PMOS. I am more confident in managing it as a result of reliable online medical explanations and advice around the condition, as well as emotional support from other women.
 
 This should not be the standard of care. But know that it can become manageable and that you are not alone if you have feelings of apprehension or overwhelm. Meet up with the people around you and lean on them.`,
     isAnonymous: true,

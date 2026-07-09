@@ -26,10 +26,10 @@ export default function ClientLayout({
   return (
     <html lang="en">
       <head>
-        <title>McMaster PCOS Society - McMaster University</title>
+        <title>McMaster PMOS Society - McMaster University</title>
         <meta
           name="description"
-          content="Supporting and empowering individuals with PCOS through community, education, and advocacy."
+          content="Supporting and empowering individuals with PMOS through community, education, and advocacy."
         />
       </head>
       <body className={inter.className}>

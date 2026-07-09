@@ -36,7 +36,7 @@ export default function GetInvolvedPage() {
     },
     {
       title: "Research Assistant",
-      description: "Help compile and review PCOS research for our educational content",
+      description: "Help compile and review PMOS research for our educational content",
       commitment: "4-6 hours/week",
     },
   ]
@@ -73,7 +73,7 @@ export default function GetInvolvedPage() {
         <div className="text-center mb-16">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">Get Involved</h1>
           <p className="text-xl text-gray-600 font-light max-w-3xl mx-auto">
-            Join our mission to support the PCOS community by becoming a general member, attending events, or donating to the cause.
+            Join our mission to support the PMOS community by becoming a general member, attending events, or donating to the cause.
           </p>
         </div>
 
@@ -85,10 +85,10 @@ export default function GetInvolvedPage() {
             </CardHeader>
             <CardContent className="text-center">
               <p className="text-gray-700 mb-8 text-lg">
-                Every single contribution makes a difference in supporting individuals with PCOS.
+                Every single contribution makes a difference in supporting individuals with PMOS.
               </p>
               <p className="text-gray-600 mb-8 text-base">
-                Funds gathered by McMaster PCOS Society proceed towards PCOS Together at the University of Alberta. Your donations support polycystic ovarian (PCOS) research and innovation that seeks truth and solves problems.
+                Funds gathered by McMaster PMOS Society proceed towards __PMOS_TOGETHER_NAME__ at the University of Alberta. Your donations support polyendocrine metabolic ovarian (PMOS) research and innovation that seeks truth and solves problems.
               </p>
               <Button asChild size="lg" className="bg-rose-600 hover:bg-rose-700 px-8 py-4 text-lg">
                 <Link href="https://gofundme.com/your-campaign" target="_blank" rel="noopener noreferrer">
@@ -109,7 +109,7 @@ export default function GetInvolvedPage() {
             </CardHeader>
             <CardContent className="text-center">
               <p className="text-gray-700 mb-6 text-lg">
-                Read about our <Link href="/hervoices" className="text-rose-600 hover:text-rose-700 font-medium">submission successes</Link> and the stories that are inspiring change in the PCOS community.
+                Read about our <Link href="/hervoices" className="text-rose-600 hover:text-rose-700 font-medium">submission successes</Link> and the stories that are inspiring change in the PMOS community.
               </p>
               <Button asChild variant="outline" className="px-6 py-3">
                 <Link href="/hervoices">View Stories</Link>

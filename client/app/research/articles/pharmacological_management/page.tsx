@@ -15,7 +15,7 @@ export default function PharmacologicalManagementPage() {
 
         <article className="bg-white rounded-lg shadow-lg p-8 md:p-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-2 text-center">
-            Pharmacological Management of Symptoms Associated with Polycystic Ovarian Syndrome
+            Pharmacological Management of Symptoms Associated with Polyendocrine Metabolic Ovarian Syndrome
           </h1>
           <p className="text-center text-gray-600 mb-10 text-lg">
             By: Noelle F. Di Perna
@@ -27,15 +27,15 @@ export default function PharmacologicalManagementPage() {
                 Introduction
               </h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Polycystic ovarian syndrome (PCOS) is an array of symptoms, such
+                Polyendocrine Metabolic Ovarian Syndrome (PMOS) is an array of symptoms, such
                 as irregular menstrual cycles and ovarian cysts, caused by a
                 hormonal imbalance, affecting women of reproductive capacity
                 <sup>1</sup>. Given that the exact physiological mechanisms of
-                PCOS are widely misunderstood among the scientific community,
-                management of PCOS is largely linked to minimizing symptoms
+                PMOS are widely misunderstood among the scientific community,
+                management of PMOS is largely linked to minimizing symptoms
                 present in affected individuals <sup>1</sup>. This article aims
                 to discuss current, well-researched pharmacological management
-                strategies for PCOS.
+                strategies for PMOS.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
                 While these strategies have been shown to be clinically
@@ -45,7 +45,7 @@ export default function PharmacologicalManagementPage() {
                 different management strategies <sup>2</sup>. Beyond this,
                 certain harmful side effects may be present in some individuals
                 and not others, which is why consulting with a physician is of
-                utmost importance <sup>2</sup>. Management for PCOS is not a
+                utmost importance <sup>2</sup>. Management for PMOS is not a
                 one-size-fits-all solution.
               </p>
               <figure className="my-6">
@@ -63,11 +63,11 @@ export default function PharmacologicalManagementPage() {
               </h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 The combined oral contraceptive pill (COCP) is typically the
-                first-line treatment for most individuals with PCOS, as the drug
+                first-line treatment for most individuals with PMOS, as the drug
                 alleviates symptoms of irregular menstruation and
                 hyperandrogenism (hirsutism, acne, etc.) <sup>2</sup>. The COCP
                 improves symptoms through multiple pathways that are impaired in
-                those with PCOS: inhibition of excess androgen production in the
+                those with PMOS: inhibition of excess androgen production in the
                 ovaries, increased production of sex-hormone binding globulin,
                 and general anti-androgenic effects <sup>2</sup>. COCP
                 formulations with low-dose estrogen are generally preferred to
@@ -75,7 +75,7 @@ export default function PharmacologicalManagementPage() {
                 not yield increased clinical benefits <sup>2</sup>. It is
                 important to note that COCPs are prescribed to patients who want
                 to control symptoms of irregular periods and hyperandrogenism,
-                not as a cure for PCOS <sup>2</sup>.
+                not as a cure for PMOS <sup>2</sup>.
               </p>
             </section>
 
@@ -85,7 +85,7 @@ export default function PharmacologicalManagementPage() {
               </h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Metformin is used to treat metabolic effects (e.g., insulin
-                resistance and weight gain) associated with PCOS <sup>2</sup>.
+                resistance and weight gain) associated with PMOS <sup>2</sup>.
                 The drug works by improving insulin sensitivity in the liver
                 and peripheral tissues, which reduces hepatic glucose production
                 <sup>2</sup>. Studies have shown metformin to reduce body
@@ -104,7 +104,7 @@ export default function PharmacologicalManagementPage() {
               <p className="text-gray-700 leading-relaxed mb-4">
                 Considering the novelty of GLP-1 receptor agonists, there is
                 limited research tied to their efficacy in individuals with
-                PCOS <sup>2</sup>. However, given the nature of both PCOS and
+                PMOS <sup>2</sup>. However, given the nature of both PMOS and
                 GLP-1 receptor agonists, there is evidence that the drug can be
                 considered to manage symptoms of weight gain and insulin
                 resistance present in affected individuals <sup>2</sup>. GLP-1
@@ -119,7 +119,7 @@ export default function PharmacologicalManagementPage() {
               </h2>
               <ol className="list-decimal list-inside space-y-3 text-gray-700">
                 <li>
-                  John Hopkins Medicine. Polycystic ovary syndrome (PCOS)
+                  John Hopkins Medicine. Polyendocrine Metabolic Ovarian Syndrome (PMOS)
                   [Internet]. John Hopkins Medicine. 2025. Available from:{" "}
                   <a
                     href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/polycystic-ovary-syndrome-pcos"

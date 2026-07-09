@@ -19,7 +19,7 @@ export default function ResearchPage() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            PCOS Research Hub
+            PMOS Research Hub
           </h1>
         </div>
 
@@ -31,46 +31,67 @@ export default function ResearchPage() {
           <div className="space-y-4">
             <Link
               href="/research/articles/long_term_health_effects"
-              aria-label="Read Long-Term Health Effects Associated with PCOS by Noelle F. Di Perna"
+              aria-label="Read Long-Term Health Effects Associated with PMOS by Noelle F. Di Perna"
               className="block p-4 border border-gray-200 rounded-lg hover:bg-gray-50 hover:border-gray-300 transition-colors"
             >
               <h3 className="text-lg font-semibold text-gray-900 mb-1">
-                Long-Term Health Effects Associated with Polycystic Ovarian
-                Syndrome (PCOS) — by Noelle F. Di Perna
+                Long-Term Health Effects Associated with Polyendocrine Metabolic
+                Ovarian Syndrome (PMOS) — by Noelle F. Di Perna
               </h3>
             </Link>
 
             <Link
               href="/research/articles/role_of_hormones"
-              aria-label="Read The Role of Hormones in PCOS by Sofia R.M. Jacome"
+              aria-label="Read The Role of Hormones in PMOS by Sofia R.M. Jacome"
               className="block p-4 border border-gray-200 rounded-lg hover:bg-gray-50 hover:border-gray-300 transition-colors"
             >
               <h3 className="text-lg font-semibold text-gray-900 mb-1">
-                The Role of Hormones in Polycystic Ovarian Syndrome (PCOS) — by
-                Sofia R.M. Jacome
+                The Role of Hormones in Polyendocrine Metabolic Ovarian Syndrome
+                (PMOS) — by Sofia R.M. Jacome
               </h3>
             </Link>
 
             <Link
               href="/research/articles/pharmacological_management"
-              aria-label="Read Pharmacological Management of Symptoms Associated with PCOS by Noelle F. Di Perna"
+              aria-label="Read Pharmacological Management of Symptoms Associated with PMOS by Noelle F. Di Perna"
               className="block p-4 border border-gray-200 rounded-lg hover:bg-gray-50 hover:border-gray-300 transition-colors"
             >
               <h3 className="text-lg font-semibold text-gray-900 mb-1">
                 Pharmacological Management of Symptoms Associated with
-                Polycystic Ovarian Syndrome — by Noelle F. Di Perna
+                Polyendocrine Metabolic Ovarian Syndrome — by Noelle F. Di Perna
               </h3>
             </Link>
 
             <Link
               href="/research/articles/cyclic_progesterone_spironolactone"
-              aria-label="Read Breaking Down Current Research: Cyclic Progesterone and Spironolactone Treatment for PCOS by Sofia R.M. Jacome"
+              aria-label="Read Breaking Down Current Research: Cyclic Progesterone and Spironolactone Treatment for PMOS by Sofia R.M. Jacome"
               className="block p-4 border border-gray-200 rounded-lg hover:bg-gray-50 hover:border-gray-300 transition-colors"
             >
               <h3 className="text-lg font-semibold text-gray-900 mb-1">
                 Breaking Down Current Research: Cyclic Progesterone and
-                Spironolactone Treatment for Polycystic Ovarian Syndrome — A
-                Feasibility Study by Kaitlin Nelson (MSc) — by Sofia R.M. Jacome
+                Spironolactone Treatment for Polyendocrine Metabolic Ovarian
+                Syndrome — A Feasibility Study by Kaitlin Nelson (MSc) — by
+                Sofia R.M. Jacome
+              </h3>
+            </Link>
+
+            <Link
+              href="/research/articles/women_making_change_in_pmos_research"
+              aria-label="Read Women Making a Change in PMOS Research by Noelle F. Di Perna"
+              className="block p-4 border border-gray-200 rounded-lg hover:bg-gray-50 hover:border-gray-300 transition-colors"
+            >
+              <h3 className="text-lg font-semibold text-gray-900 mb-1">
+                Women Making a Change in PMOS Research — by Noelle F. Di Perna
+              </h3>
+            </Link>
+
+            <Link
+              href="/research/articles/future_of_pmos"
+              aria-label="Read The Future of PMOS: What Hope is There by Sofia R.M. Jacome"
+              className="block p-4 border border-gray-200 rounded-lg hover:bg-gray-50 hover:border-gray-300 transition-colors"
+            >
+              <h3 className="text-lg font-semibold text-gray-900 mb-1">
+                The Future of PMOS: What Hope is There? — by Sofia R.M. Jacome
               </h3>
             </Link>
           </div>
@@ -83,9 +104,9 @@ export default function ResearchPage() {
           </h2>
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
-              <AccordionTrigger>How is PCOS diagnosed?</AccordionTrigger>
+              <AccordionTrigger>How is PMOS diagnosed?</AccordionTrigger>
               <AccordionContent>
-                PCOS is typically diagnosed using the Rotterdam criteria, which
+                PMOS is typically diagnosed using the Rotterdam criteria, which
                 require at least 2 of the following 3: irregular ovulation,
                 clinical or biochemical signs of hyperandrogenism, and
                 polycystic ovaries on ultrasound.
@@ -93,32 +114,32 @@ export default function ResearchPage() {
             </AccordionItem>
 
             <AccordionItem value="item-2">
-              <AccordionTrigger>Can PCOS be cured?</AccordionTrigger>
+              <AccordionTrigger>Can PMOS be cured?</AccordionTrigger>
               <AccordionContent>
-                While there is no definitive cure for PCOS, symptoms can be
+                While there is no definitive cure for PMOS, symptoms can be
                 managed through lifestyle changes, medications, and hormonal
-                treatments. Many people with PCOS live healthy, fulfilling
+                treatments. Many people with PMOS live healthy, fulfilling
                 lives.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-3">
-              <AccordionTrigger>Does PCOS affect fertility?</AccordionTrigger>
+              <AccordionTrigger>Does PMOS affect fertility?</AccordionTrigger>
               <AccordionContent>
-                PCOS can affect fertility by disrupting ovulation, but many
-                people with PCOS can conceive naturally or with fertility
+                PMOS can affect fertility by disrupting ovulation, but many
+                people with PMOS can conceive naturally or with fertility
                 treatments when working with healthcare providers.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-4">
               <AccordionTrigger>
-                What lifestyle changes can help with PCOS?
+                What lifestyle changes can help with PMOS?
               </AccordionTrigger>
               <AccordionContent>
                 Regular exercise, balanced nutrition (especially supporting
                 insulin sensitivity), stress management, and maintaining a
-                healthy weight can help manage PCOS symptoms.
+                healthy weight can help manage PMOS symptoms.
               </AccordionContent>
             </AccordionItem>
           </Accordion>

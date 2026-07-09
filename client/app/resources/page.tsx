@@ -6,10 +6,17 @@ import Link from "next/link"
 export default function ResourcesPage() {
   const helplines = [
     {
-      name: "PCOS Together",
-      description: "For updates on studies and publications research regarding PCOS",
-      website: "https://pcos.together.ualberta.ca/",
-      type: "PCOS Support",
+      name: "Dr. Anne Hussain",
+      description: "Naturopathic doctor and women's health expert offering PMOS care, education, and resources",
+      website: "https://annehussain.com/",
+      type: "PMOS Support",
+      availability: "Online Resources",
+    },
+    {
+      name: "__PMOS_TOGETHER_NAME__",
+      description: "For updates on studies and publications research regarding PMOS",
+      website: "https://__PMOS_TOGETHER_URL__/",
+      type: "PMOS Support",
       availability: "Online Resources",
     },
     {
@@ -52,7 +59,7 @@ export default function ResourcesPage() {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Resources & Support</h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Access helplines and support services for PCOS and general health needs.
+            Access helplines and support services for PMOS and general health needs.
           </p>
         </div>
 
@@ -148,7 +155,7 @@ export default function ResourcesPage() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-700">
-                Email: <a href="mailto:pcos@mcmaster.ca" className="text-rose-600 hover:text-rose-700">pcos@mcmaster.ca</a>
+                Email: <a href="mailto:__EMAIL_PMOS__" className="text-rose-600 hover:text-rose-700">__EMAIL_PMOS__</a>
               </p>
             </CardContent>
           </Card>

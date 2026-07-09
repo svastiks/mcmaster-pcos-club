@@ -15,7 +15,7 @@ export default function RoleOfHormonesPage() {
 
         <article className="bg-white rounded-lg shadow-lg p-8 md:p-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-2 text-center">
-            The Role of Hormones in Polycystic Ovarian Syndrome (PCOS)
+            The Role of Hormones in Polyendocrine Metabolic Ovarian Syndrome (PMOS)
           </h1>
           <p className="text-center text-gray-600 mb-12 text-lg">
             By: Sofia R.M. Jacome
@@ -28,7 +28,7 @@ export default function RoleOfHormonesPage() {
                 What is a Hormone?
               </h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Polycystic ovarian syndrome or PCOS, for short, is an endocrine 
+                Polyendocrine Metabolic Ovarian Syndrome, or PMOS, for short, is an endocrine
                 condition, meaning that it is associated with issues related 
                 to hormones<sup>1</sup>. Hormones are messengers produced by 
                 various parts of the body, like the brain, ovaries, and testes, 
@@ -85,7 +85,7 @@ export default function RoleOfHormonesPage() {
                 cholesterol levels, bone and muscle mass, and brain 
                 function<sup>7</sup>. Too little estrogen can lead to 
                 dysfunction and dysregulation of these areas. Sometimes with 
-                PCOS, estrogen levels are too high in relation to progesterone 
+                PMOS, estrogen levels are too high in relation to progesterone 
                 levels, causing symptoms like heavy periods<sup>7</sup>.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
@@ -114,22 +114,22 @@ export default function RoleOfHormonesPage() {
                 Hyperandrogenism and Insulin Resistance
               </h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Major symptoms of PCOS occur when there are the wrong amounts of 
+                Major symptoms of PMOS occur when there are the wrong amounts of 
                 the male messengers<sup>11</sup>. When there is too much of the 
                 messenger testosterone, the result is a condition called 
                 hyperandrogenism<sup>11</sup>. This imbalance causes symptoms we 
-                often associate with PCOS, such as acne, overly oily skin, 
+                often associate with PMOS, such as acne, overly oily skin, 
                 excessive body hair—especially on the face, chest, and 
                 back—irregular periods, and male-pattern baldness<sup>11</sup>. 
-                Approximately 80–90% of females with hyperandrogenism have PCOS, 
-                and many healthcare professionals attribute PCOS as the most 
+                Approximately 80–90% of females with hyperandrogenism have PMOS, 
+                and many healthcare professionals attribute PMOS as the most 
                 common cause of this condition<sup>11</sup>.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Insulin acts as a messenger from the pancreas that tells cells 
                 to let in glucose (sugar) from the bloodstream to use in energy 
                 production<sup>12</sup>. Insulin resistance, found in 60–70% of 
-                women with PCOS, is a condition where the cells don’t listen to 
+                women with PMOS, is a condition where the cells don’t listen to 
                 insulin<sup>12</sup>. When this happens, cells do not accept 
                 sugar as effectively, and the body thinks there must not be 
                 enough insulin in the bloodstream<sup>13</sup>. It responds by 
@@ -148,7 +148,7 @@ export default function RoleOfHormonesPage() {
                 the liver, preventing SHBG from being released to perform its 
                 ability to regulate androgens, leading to high androgen levels 
                 in the body<sup>14</sup>. These high androgens then go on to 
-                cause the symptoms of PCOS discussed above<sup>14</sup>.
+                cause the symptoms of PMOS discussed above<sup>14</sup>.
               </p>
             </section>
 
@@ -158,7 +158,7 @@ export default function RoleOfHormonesPage() {
                 Conclusion
               </h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                PCOS is associated with imbalances in various hormones, causing 
+                PMOS is associated with imbalances in various hormones, causing 
                 symptoms or directly driving imbalances in others. The hope is 
                 that through reading this article, you were able to learn 
                 something new about the amazing messengers that control our 
@@ -176,7 +176,7 @@ export default function RoleOfHormonesPage() {
               </h2>
               <ol className="list-decimal list-inside space-y-3 text-gray-700">
                 <li>
-                  Endocrine Society. Polycystic Ovary Syndrome [Internet]. 2022.{" "}
+                  Endocrine Society. Polyendocrine Metabolic Ovarian Syndrome [Internet]. 2022.{" "}
                   <a
                     href="https://www.endocrine.org/patient-engagement/endocrine-library/pcos"
                     target="_blank"
@@ -267,7 +267,7 @@ export default function RoleOfHormonesPage() {
                   </a>
                 </li>
                 <li>
-                  Baptiste CG et al. Insulin and hyperandrogenism in PCOS. J
+                  Baptiste CG et al. Insulin and hyperandrogenism in PMOS. J
                   Steroid Biochem Mol Biol. 2010.{" "}
                   <a
                     href="https://www.sciencedirect.com/science/article/abs/pii/S0960076009003033"
@@ -326,7 +326,7 @@ export default function RoleOfHormonesPage() {
                 </li>
                 <li>
                   Pateguana NB, Janes A. The contribution of hyperinsulinemia to
-                  PCOS. J Metabolic Health. 2019.{" "}
+                  PMOS. J Metabolic Health. 2019.{" "}
                   <a
                     href="https://journalofmetabolichealth.org/index.php/jmh/article/view/50/184"
                     target="_blank"
