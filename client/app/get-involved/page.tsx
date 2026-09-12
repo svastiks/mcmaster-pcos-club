@@ -135,48 +135,85 @@ export default function GetInvolvedPage() {
                 </div>
               ) : events.length > 0 ? (
                 <div className="space-y-6">
-                  {events.map((event) => (
-                    <div key={event.id} className="border rounded-lg p-6 hover:shadow-md transition-shadow">
-                      <div className="flex justify-between items-start mb-3">
-                        <h3 className="text-lg font-semibold text-gray-900">{event.title}</h3>
-                        <span className={`text-xs px-2 py-1 rounded-full ${
-                          event.type === 'workshop' ? 'bg-blue-100 text-blue-800' :
-                          event.type === 'fundraiser' ? 'bg-green-100 text-green-800' :
-                          event.type === 'support' ? 'bg-purple-100 text-purple-800' :
-                          'bg-gray-100 text-gray-800'
-                        }`}>
-                          {event.type}
-                        </span>
-                      </div>
-                      <p className="text-gray-600 mb-3">{event.description}</p>
-                      <div className="flex flex-wrap gap-4 text-sm text-gray-500">
-                        <div className="flex items-center gap-1">
-                          <Calendar className="h-4 w-4" />
-                          <span>{new Date(event.date).toLocaleDateString()}</span>
+                  {events.map((event) => {
+                    const isLink = event.registration.startsWith("http")
+                    const [year, month, day] = event.date.split("-").map(Number)
+                    const dateLabel = new Date(year, month - 1, day).toLocaleDateString("en-US", {
+                      weekday: "short",
+                      month: "long",
+                      day: "numeric",
+                      year: "numeric",
+                    })
+                    const monthShort = new Date(year, month - 1, day).toLocaleDateString("en-US", { month: "short" })
+
+                    const content = (
+                      <>
+                        <div className="flex gap-5">
+                          <div className="flex-shrink-0 w-16 rounded-xl bg-rose-600 text-white text-center py-3">
+                            <p className="text-xs font-medium uppercase tracking-wide opacity-90">{monthShort}</p>
+                            <p className="text-2xl font-bold leading-none mt-1">{day}</p>
+                          </div>
+                          <div className="flex-1 min-w-0">
+                            <div className="flex items-start justify-between gap-3 mb-2">
+                              <h3 className="text-xl font-semibold text-gray-900">{event.title}</h3>
+                              <span className={`flex-shrink-0 text-xs px-2.5 py-1 rounded-full capitalize ${
+                                event.type === 'workshop' ? 'bg-blue-100 text-blue-800' :
+                                event.type === 'fundraiser' ? 'bg-green-100 text-green-800' :
+                                event.type === 'support' ? 'bg-purple-100 text-purple-800' :
+                                'bg-gray-100 text-gray-800'
+                              }`}>
+                                {event.type}
+                              </span>
+                            </div>
+                            <p className="text-gray-600 mb-4">{event.description}</p>
+                            <div className="flex flex-col sm:flex-row sm:flex-wrap gap-2 sm:gap-5 text-sm text-gray-600">
+                              <div className="flex items-center gap-2">
+                                <Calendar className="h-4 w-4 text-rose-600" />
+                                <span>{dateLabel}</span>
+                              </div>
+                              <div className="flex items-center gap-2">
+                                <Clock className="h-4 w-4 text-rose-600" />
+                                <span>{event.time}</span>
+                              </div>
+                              <div className="flex items-center gap-2">
+                                <MapPin className="h-4 w-4 text-rose-600" />
+                                <span>{event.location}</span>
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                        <div className="flex items-center gap-1">
-                          <Clock className="h-4 w-4" />
-                          <span>{event.time}</span>
+                        <div className="mt-5 pt-4 border-t border-gray-100 flex items-center justify-between gap-3">
+                          {isLink ? (
+                            <>
+                              <span className="text-sm text-gray-500">Spots available — register on Rubric</span>
+                              <span className="inline-flex items-center gap-2 rounded-full bg-rose-600 px-5 py-2.5 text-sm font-medium text-white group-hover:bg-rose-700 transition-colors">
+                                Sign Up
+                                <ExternalLink className="h-4 w-4" />
+                              </span>
+                            </>
+                          ) : (
+                            <span className="text-sm text-gray-500">Registration: {event.registration}</span>
+                          )}
                         </div>
-                        <div className="flex items-center gap-1">
-                          <MapPin className="h-4 w-4" />
-                          <span>{event.location}</span>
-                        </div>
+                      </>
+                    )
+
+                    return isLink ? (
+                      <Link
+                        key={event.id}
+                        href={event.registration}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group block rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:border-rose-300 hover:shadow-lg"
+                      >
+                        {content}
+                      </Link>
+                    ) : (
+                      <div key={event.id} className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+                        {content}
                       </div>
-                      <div className="mt-4">
-                        {event.registration.startsWith("http") ? (
-                          <Button asChild size="sm" className="bg-rose-600 hover:bg-rose-700">
-                            <Link href={event.registration} target="_blank" rel="noopener noreferrer">
-                              Sign Up
-                              <ExternalLink className="ml-2 h-4 w-4" />
-                            </Link>
-                          </Button>
-                        ) : (
-                          <span className="text-xs text-gray-500">Registration: {event.registration}</span>
-                        )}
-                      </div>
-                    </div>
-                  ))}
+                    )
+                  })}
                 </div>
               ) : (
                 <div className="text-center py-12">

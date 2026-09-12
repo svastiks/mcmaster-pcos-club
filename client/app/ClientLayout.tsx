@@ -31,6 +31,8 @@ export default function ClientLayout({
           name="description"
           content="Supporting and empowering individuals with PMOS through community, education, and advocacy."
         />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/favicon.svg" />
       </head>
       <body className={inter.className}>
         <Navigation />
