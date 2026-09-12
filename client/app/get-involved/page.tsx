@@ -148,8 +148,8 @@ export default function GetInvolvedPage() {
 
                     const content = (
                       <>
-                        <div className="flex gap-5">
-                          <div className="flex-shrink-0 w-16 rounded-xl bg-rose-600 text-white text-center py-3">
+                        <div className="flex items-start gap-5">
+                          <div className="flex-shrink-0 w-16 self-start rounded-xl bg-rose-600 text-white text-center py-2.5">
                             <p className="text-xs font-medium uppercase tracking-wide opacity-90">{monthShort}</p>
                             <p className="text-2xl font-bold leading-none mt-1">{day}</p>
                           </div>
@@ -165,7 +165,7 @@ export default function GetInvolvedPage() {
                                 {event.type}
                               </span>
                             </div>
-                            <p className="text-gray-600 mb-4">{event.description}</p>
+                            <p className="text-gray-600 mb-3">{event.description}</p>
                             <div className="flex flex-col sm:flex-row sm:flex-wrap gap-2 sm:gap-5 text-sm text-gray-600">
                               <div className="flex items-center gap-2">
                                 <Calendar className="h-4 w-4 text-rose-600" />
@@ -182,10 +182,10 @@ export default function GetInvolvedPage() {
                             </div>
                           </div>
                         </div>
-                        <div className="mt-5 pt-4 border-t border-gray-100 flex items-center justify-between gap-3">
+                        <div className="mt-4 pt-4 border-t border-gray-100 flex items-center justify-between gap-3">
                           {isLink ? (
                             <>
-                              <span className="text-sm text-gray-500">Spots available — register on Rubric</span>
+                              <span className="text-sm text-gray-500">Spots available. Register on Rubric</span>
                               <span className="inline-flex items-center gap-2 rounded-full bg-rose-600 px-5 py-2.5 text-sm font-medium text-white group-hover:bg-rose-700 transition-colors">
                                 Sign Up
                                 <ExternalLink className="h-4 w-4" />
