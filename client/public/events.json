@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "title": "Women’s Day Coffeehouse",
-    "date": "2026-03-06",
-    "time": "6:30 PM - 9:30 PM",
-    "location": "Bridges Café, McMaster University",
-    "description": "In Collaboration with McMaster HEAS",
-    "type": "fundraiser",
-    "registration": "Optional"
+    "title": "PMOS: The Movement Lab",
+    "date": "2026-09-23",
+    "time": "3:00 PM - 5:00 PM",
+    "location": "Fitzhenry Studio, DBAC",
+    "description": "Join us for The Movement Lab — an upcoming PMOS community event.",
+    "type": "workshop",
+    "registration": "https://campus.hellorubric.com/?eid=76531"
   }
 ]

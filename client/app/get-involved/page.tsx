@@ -164,7 +164,16 @@ export default function GetInvolvedPage() {
                         </div>
                       </div>
                       <div className="mt-4">
-                        <span className="text-xs text-gray-500">Registration: {event.registration}</span>
+                        {event.registration.startsWith("http") ? (
+                          <Button asChild size="sm" className="bg-rose-600 hover:bg-rose-700">
+                            <Link href={event.registration} target="_blank" rel="noopener noreferrer">
+                              Sign Up
+                              <ExternalLink className="ml-2 h-4 w-4" />
+                            </Link>
+                          </Button>
+                        ) : (
+                          <span className="text-xs text-gray-500">Registration: {event.registration}</span>
+                        )}
                       </div>
                     </div>
                   ))}
