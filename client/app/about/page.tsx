@@ -3,7 +3,6 @@
 import type React from "react"
 
 import { useState } from "react"
-import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -106,15 +105,9 @@ export default function AboutPage() {
             {teamMembers.map((member, index) => (
               <Card key={index} className="text-center overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
                 <CardContent className="p-4">
-                  <div className="relative w-full aspect-square mb-4 rounded-lg overflow-hidden">
-                    <Image
-                      src={member.image}
-                      alt={member.name}
-                      fill
-                      className="object-cover"
-                    />
+                  <div className="relative w-full aspect-square mb-4 rounded-lg overflow-hidden bg-rose-50 flex items-center justify-center">
+                    <p className="text-sm font-medium text-rose-700 tracking-wide">Coming Soon</p>
                   </div>
-                  <h3 className="font-semibold text-gray-900 mb-1">{member.name}</h3>
                   <p className="text-sm text-gray-600">{member.role}</p>
                 </CardContent>
               </Card>
